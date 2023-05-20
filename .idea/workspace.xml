@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assessts/images/1200x630wa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/1671073404235-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/257a8be2-bbf2-4218-a55b-219d819578b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/800px-HackerRank_Icon-1000px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/9ccc409aa41ecb4e23149b220aba9abc-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/DSC_0308-01.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/b61abe80-7bd4-11e9-8db4-03c18a436041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/coding--removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/download (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/download__4_-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/image-2-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/images-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/logo-2582747_1280.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/logo-2582748_640.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/pngtree-black-and-white-high-end-line-network-technology-background-image_720925.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/logos/2437730f7e3a5705e205e67fa2cd1020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/logos/download (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/logos/download (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/logos/png-clipart-twitter-twitter-thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/logos/png-transparent-whatsapp-logo-whatsapp-logo-whatsapp-text-trademark-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/logos/unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/AboutMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Edu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/HomePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/MoreDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitIgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitIgnore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessts/images/0f6f2369bc62e720d529e82a5b490eb0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessts/images/19f840d39f916eae102733645a5c7c06.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assessts/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/HomePage.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,19 +34,23 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="2LDRhlVw6JIRJmm7lLX9yCTS7uj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assessts/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ReaderModeSettings">
@@ -81,8 +58,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GDSE63\MyProfile\assessts\logos" />
       <recent name="D:\GDSE63\MyProfile\assessts\images" />
+      <recent name="D:\GDSE63\MyProfile\assessts\logos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDSE63\MyProfile\assessts\images" />
@@ -109,6 +86,10 @@
       <workItem from="1678328450282" duration="11605000" />
       <workItem from="1678391158047" duration="3102000" />
       <workItem from="1678415208465" duration="17601000" />
+      <workItem from="1678504731154" duration="1790000" />
+      <workItem from="1678758544759" duration="662000" />
+      <workItem from="1681611477168" duration="5393000" />
+      <workItem from="1684500018067" duration="6513000" />
     </task>
     <servers />
   </component>
@@ -126,5 +107,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
