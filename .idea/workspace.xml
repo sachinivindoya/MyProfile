@@ -2,12 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assessts/images/0f6f2369bc62e720d529e82a5b490eb0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessts/images/19f840d39f916eae102733645a5c7c06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessts/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assessts/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/0f6f2369bc62e720d529e82a5b490eb0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/1200x630wa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/1671073404235-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/19f840d39f916eae102733645a5c7c06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/257a8be2-bbf2-4218-a55b-219d819578b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/800px-HackerRank_Icon-1000px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/9ccc409aa41ecb4e23149b220aba9abc-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/DSC_0308-01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/b61abe80-7bd4-11e9-8db4-03c18a436041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/coding--removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/download (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/download__4_-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/image-2-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/images-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/istockphoto-1204764789-170667a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/logo-2582747_1280.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/logo-2582748_640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/images/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/logos/2437730f7e3a5705e205e67fa2cd1020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/logos/Artboard_1-100-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/logos/download (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/logos/download (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/logos/png-clipart-twitter-twitter-thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/logos/png-transparent-whatsapp-logo-whatsapp-logo-whatsapp-text-trademark-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/logos/unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessts/style/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/HomePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/AboutMe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Edu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/MoreDetails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -89,7 +122,15 @@
       <workItem from="1678504731154" duration="1790000" />
       <workItem from="1678758544759" duration="662000" />
       <workItem from="1681611477168" duration="5393000" />
-      <workItem from="1684500018067" duration="6513000" />
+      <workItem from="1684500018067" duration="6835000" />
+      <workItem from="1684675675093" duration="3161000" />
+      <workItem from="1684701392165" duration="578000" />
+      <workItem from="1684914729888" duration="621000" />
+      <workItem from="1685156167551" duration="2177000" />
+      <workItem from="1685352910619" duration="765000" />
+      <workItem from="1685408259866" duration="4442000" />
+      <workItem from="1685546577777" duration="691000" />
+      <workItem from="1685695920667" duration="590000" />
     </task>
     <servers />
   </component>
