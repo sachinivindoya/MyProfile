@@ -8,6 +8,55 @@
     padding-left: 150px;
 
 }
+.coloredLetter{
+    color: #47c0a0;
+}
+
+.intro1{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Rubik', sans-serif;
+    color: #000000; /* Set the text color */
+    text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff, 2px -2px 2px #ffffff, -2px 2px 2px #47c0a0; /* Set the outline using multiple text shadows */
+    padding-left: 230px;
+    margin-top: 20px;
+}
+home > section {
+    position: relative;
+}
+home > article {
+    display: flex;  width: 30px;
+    height: 165px;
+    position: relative;
+    left: 500px;
+    bottom: 155px;
+    flex-wrap: wrap;
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+.socials{
+    width: 50px;
+    transition: width 2s, height 2s, transform 2s;
+    padding-inline: 5px;
+
+}
+.logos{
+    padding-left: 350px;
+    margin-top: 30px;
+
+
+}
+.socials:hover{
+    width: 50px;
+    height: 50px;
+    transform: rotate(360deg);
+}
+
+
 .name{
     font-size: 70px;
     font-weight: 600;
@@ -18,34 +67,42 @@
     text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000, 2px -2px 2px #000000, -2px 2px 2px #47c0a0; /* Set the outline using multiple text shadows */
     padding-left: 150px;
     margin-top: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
 }
-.coloredLetter{
-    color: #47c0a0;
+/* name animation */
+@keyframes example {
+    0%   { left:0px; top:0px;}
+
+    50%  { left:150px; top:200px;}
+
+    100% { left:0px; top:0px;}
 }
 
-.intro1{
-    font-size: 15px;
-    font-family: 'Delicious Handrawn', cursive;
-    font-family: 'Noto Serif', serif;
-    font-family: 'Rubik', sans-serif;
-    color: #000000; /* Set the text color */
-    text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff, 2px -2px 2px #ffffff, -2px 2px 2px #47c0a0; /* Set the outline using multiple text shadows */
-    padding-left: 230px;
-    margin-top: 10px;
+.letter-animation {
+    display: inline-block;
 }
-home > section {
-    position: relative;
+
+.letter-animation span {
+    opacity: 0;
+    animation-name: letter-fade-in;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: calc(0.1s * var(--index));
 }
-home > article {
-    display: flex;  width: 28px;
-    height: 165px;
-    position: absolute;
-    left: 400px;
-    bottom: 155px;
-    flex-wrap: wrap;
+
+@keyframes letter-fade-in {
+    to {
+        opacity: 1;
+    }
 }
-.left{
-width: 60%;
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
 
 }
 
