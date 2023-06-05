@@ -2,71 +2,13 @@
     margin: 0;
     padding: 0;
 }
+/* home page */
 
-#nav-bar{
-  /* background-image: linear-gradient(to right, #20c997, #ffffff);*/
-}
 /* positioning navbar to the top of the page and stuck to the top */
-#nav-bar{
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-.navbar-brand img{
-    height: 65px;
-    transition: width 1s, height 4s;
-}
-.navbar-brand img:hover{
-    height: 100px;
 
-}
 
-.navbar-nav li{
-    padding: 5px 10px;
-    text-align: right;
-}
-.navbar-nav li a{
-    font-weight: 600;
-    text-decoration: none !important;
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 3px;
-    display: inline;
-    position: relative;
-    color: black;
-}
 
-.navbar-nav li a:hover, /* psuedo class */
-.navbar-nav li a:focus {
-    color: #20c997;
-}
 
-.navbar-nav li :before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    border-radius: 10px;
-    bottom: -3px;
-    left: 0;
-    background-color: #47c0a0;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);/*Applies a scale transform to the pseudo-element, scaling it horizontally to 0, effectively hiding it.*/
-    transform: scaleX(0);
-    -webkit-transition: all 0.15s ease-in-out 0s;/* Specifies the transition properties for the pseudo-element, defining the duration (0.15 seconds), easing function (ease-in-out), and delay (0 seconds) for any transitions that occur on the pseudo-element.*/
-    transition: all 0.15s ease-in-out 0s;
-}
-
-.navbar-nav li a:hover:before,
-.navbar-nav li a.active:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-.navbar-nav li a.active {
-    color: #47c0a0 !important;
-}
 
 /* home main components*/
 #main{
@@ -150,5 +92,7 @@
 .animated_image {
     animation: slide-in 1s ease-out forwards;
 }
+
+/* Do responsive */
 
 
