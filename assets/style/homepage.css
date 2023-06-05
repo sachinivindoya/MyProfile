@@ -1,0 +1,51 @@
+/* home page components */
+.intro{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000022;
+    font-family: "Comic Sans MS";
+    padding-top: 250px;
+    padding-left: 150px;
+
+}
+.name{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff; /* Set the text color */
+    text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000, 2px -2px 2px #000000, -2px 2px 2px #47c0a0; /* Set the outline using multiple text shadows */
+    padding-left: 150px;
+    margin-top: 30px;
+}
+.coloredLetter{
+    color: #47c0a0;
+}
+
+.intro1{
+    font-size: 15px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Rubik', sans-serif;
+    color: #000000; /* Set the text color */
+    text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff, 2px -2px 2px #ffffff, -2px 2px 2px #47c0a0; /* Set the outline using multiple text shadows */
+    padding-left: 230px;
+    margin-top: 10px;
+}
+home > section {
+    position: relative;
+}
+home > article {
+    display: flex;  width: 28px;
+    height: 165px;
+    position: absolute;
+    left: 400px;
+    bottom: 155px;
+    flex-wrap: wrap;
+}
+.left{
+width: 60%;
+
+}
+
