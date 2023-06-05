@@ -4,7 +4,7 @@
 }
 
 #nav-bar{
-   background-image: linear-gradient(to right, #ffffff, #7db098);
+  /* background-image: linear-gradient(to right, #20c997, #ffffff);*/
 }
 /* positioning navbar to the top of the page and stuck to the top */
 #nav-bar{
@@ -32,7 +32,7 @@
 
 .navbar-nav li a:hover, /* psuedo class */
 .navbar-nav li a:focus {
-    color: white;
+    color: #20c997;
 }
 
 .navbar-nav li :before {
@@ -64,29 +64,56 @@
 
 /* home main components*/
 #main{
-    padding: 5%;
-   background-image: linear-gradient(to right, #ffffff, #7db098);
+
+  /* background-image: linear-gradient(to right, #20c997, #ffffff);*/
 }
 
 .intro{
     font-size: 30px;
     font-weight: 600;
-    margin-top: 200px;
+    margin-top: 180px;
     font-family: "Comic Sans MS";
     color: #000000;
+
 }
 
 .name{
+    text-align: left;
     font-size: 65px;
-    font-family: "Comic Sans MS";
+    display: inline;
+    font-family: "Averia Sans Libre", cursive;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 600;
-    color: #20c997;
+    color: #47c0a0;
+    margin-inside: 50px;
+    color: #ffffff; /* Set the text color */
+    text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000, 2px -2px 2px #000000, -2px 2px 2px #000000; /* Set the outline using multiple text shadows */
 }
 .img-fluid{
-    align-content: flex-end;
+   height: 550px;
+
 }
 .intro1{
     font-weight: lighter;
+    margin-top: 10px;
     font-size: 15px;
-    font-family: "Comic Sans MS";
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Rubik', sans-serif;
+    color: black; /* Set the text color */
+    text-shadow: 2px 2px 2px #20c997, -2px -2px 2px #ffffff, 2px -2px 2px #ffffff, -2px 2px 2px #ffffff; /* Set the outline using multiple text shadows */
+}
+.colored-letter {
+    color: #20c997; /* Set the desired color for the letter */
+}
+.logos{
+    height: 40px;
+    margin-top: 10px;
+    padding-inline: 10px;
+
+}
+.col{
+    width: 65%;
 }

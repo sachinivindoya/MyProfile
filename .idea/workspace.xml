@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/mainImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/_20230605_090746-removebg-preview (1) (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/Facebook_icon_(black).svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/whatsapp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mainImage.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -48,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/logos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -60,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GDSE63\MyProfile\assets\images\logos" />
       <recent name="D:\GDSE63\MyProfile\assets\images" />
       <recent name="D:\GDSE63\MyProfile\assets\js" />
       <recent name="D:\GDSE63\MyProfile\assets\boostrap" />
       <recent name="D:\GDSE63\MyProfile\assessts\images" />
-      <recent name="D:\GDSE63\MyProfile\assessts\logos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDSE63\MyProfile\assessts\images" />
@@ -103,7 +108,7 @@
       <workItem from="1685408259866" duration="4442000" />
       <workItem from="1685546577777" duration="691000" />
       <workItem from="1685695920667" duration="590000" />
-      <workItem from="1685886777740" duration="12613000" />
+      <workItem from="1685886777740" duration="24375000" />
     </task>
     <servers />
   </component>
