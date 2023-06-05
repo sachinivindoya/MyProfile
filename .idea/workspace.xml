@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/bars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/Artboard 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/myLogo-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/myLogo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../r" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -100,7 +106,7 @@
       <workItem from="1685408259866" duration="4442000" />
       <workItem from="1685546577777" duration="691000" />
       <workItem from="1685695920667" duration="590000" />
-      <workItem from="1685886777740" duration="41886000" />
+      <workItem from="1685886777740" duration="46622000" />
     </task>
     <servers />
   </component>

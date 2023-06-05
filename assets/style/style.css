@@ -1,1 +1,237 @@
 
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    z-index: 1;
+}
+main {
+    position: relative;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 0 !important;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+/* ---- particles.js container ---- */
+
+
+
+body {
+    font-size: 10px;
+    background-color: #ffffff !important;
+}
+nav {
+    z-index: 100;
+    /* position: fixed; */
+    height: 60px;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo styling */
+a.logo {
+    font-size: 1.5rem;
+    font-family: "Goldman", sans-serif;
+    padding: 0.1rem 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    transition: all 300ms ease-in-out;
+    margin-top: 5px;
+}
+/* add logo transitions */
+a.logo:hover{
+    transform: scale(1.05);
+    transition: all 300ms ease-in-out;
+}
+
+nav ul {
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0.5rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+nav ul li a {
+    text-decoration: none !important;
+    color: black;
+    font-size: 15px;
+    padding: 10px 11px;
+    border-radius: 3px;
+    position: relative;
+    display: inline;
+}
+
+#check:checked ~ ul {
+        left: 0;
+        z-index: 5;
+}
+
+
+
+nav button:hover,
+nav button:focus {
+    transform: scale(1.05);
+    transition: all 300ms ease-in-out;
+}
+
+#menuItem li a:hover,
+#menuItem li a:focus {
+    color: #47c0a0;
+}
+
+#menuItem li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    bottom: -3px;
+    left: 0;
+    background-color: #47c0a0;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.15s ease-in-out 0s;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+#menuItem li a:hover:before,
+#menuItem li a.active:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#menuItem li a.active {
+    color: #47c0a0 !important;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    a.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1000px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .bar {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 50px;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(65, 65, 65, 0.6);
+        top: 60px;
+        left: -100%;
+        text-align: left;
+        transition: all 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 10px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+}
