@@ -87,7 +87,7 @@ a.logo {
     font-weight: bold;
     margin-bottom: 0;
     transition: all 300ms ease-in-out;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 /* add logo transitions */
 a.logo:hover{
@@ -174,16 +174,17 @@ nav button:focus {
     display: none;
 }
 
-@media (max-width: 1000px) {
+/* nav responsive for tablet  */
+@media  (max-width: 992px){
     a.logo {
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 30px;
     }
     nav ul li a {
         font-size: 16px;
     }
 }
-@media (max-width: 1000px) {
+@media   (max-width: 992px) {
     .checkbtn {
         display: block;
     }
@@ -213,7 +214,7 @@ nav button:focus {
     }
 
     nav ul li a {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     a:hover,
@@ -239,5 +240,73 @@ nav button:focus {
         opacity: 1;
     }
 
+    /* nav responsive for mobile */
 
+    @media (min-width: 425px) and (max-width: 768px) {
+        a.logo {
+            font-size: 10px;
+            padding-left: 10px;
+        }
+
+        nav ul li a {
+            font-size: 10px;
+        }
+    }
+    @media (max-width: 992px) {
+        .checkbtn {
+            display: block;
+        }
+
+        .bar {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            width: 50px;
+        }
+
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgba(65, 65, 65, 0.6);
+            top: 60px;
+            left: -100%;
+            text-align: left;
+            transition: all 0.5s;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 50px 0;
+            line-height: 10px;
+        }
+
+        nav ul li a {
+            font-size: 10px;
+        }
+
+        a:hover,
+        a.active {
+            background: none;
+            color: #0082e6;
+        }
+
+        #check:checked ~ ul {
+            left: 0;
+        }
+
+
+        .reveal {
+            position: relative;
+            transform: translateY(150px);
+            opacity: 0;
+            transition: 1s all ease;
+        }
+
+        .reveal.active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+    }
 }

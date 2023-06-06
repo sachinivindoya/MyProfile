@@ -71,6 +71,32 @@
       <recent name="D:\GDSE63\MyProfile\pages" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="D:/GDSE63/MyProfile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.D:/GDSE63/MyProfile" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +129,7 @@
       <workItem from="1685408259866" duration="4442000" />
       <workItem from="1685546577777" duration="691000" />
       <workItem from="1685695920667" duration="590000" />
-      <workItem from="1685886777740" duration="56560000" />
+      <workItem from="1685886777740" duration="63806000" />
     </task>
     <servers />
   </component>
