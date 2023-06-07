@@ -6,6 +6,7 @@
     font-family: "Comic Sans MS";
     padding-top: 250px;
     padding-left: 150px;
+    position: relative;
 
 }
 .coloredLetter{
@@ -22,22 +23,9 @@
     text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff, 2px -2px 2px #ffffff, -2px 2px 2px #47c0a0; /* Set the outline using multiple text shadows */
     padding-left: 230px;
     margin-top: 20px;
-}
-home > section {
     position: relative;
 }
-.img{
-    max-width:100%;
-    height:auto;
-}
-home > article {
-    display: flex;  width: 30px;
-    height: 165px;
 
-    left: 500px;
-    bottom: 155px;
-    flex-wrap: wrap;
-}
 section {
     display: -webkit-flex;
     display: flex;
@@ -78,6 +66,7 @@ section {
 @keyframes example {
     0%   { left:0px; top:0px;}
     25% { left: 20px; top:100px}
+    50% { left :50px; top :100px}
     100% { left:0px; top:0px;}
 }
 
@@ -99,4 +88,4 @@ section {
     }
 }
 
-
+/* home components responsive for tablet  */
