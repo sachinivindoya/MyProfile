@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/1024768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/WhatsApp Image 2023-06-08 at 03.20.57.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/WhatsApp_Image_2023-06-08_at_03.31.48-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/aboutmebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/my.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/wave1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/wave2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/aboutMe.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/DSC_0308-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/aboutme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -49,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/logos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -61,11 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GDSE63\MyProfile\assets\images\logos" />
       <recent name="D:\GDSE63\MyProfile\assets\images" />
+      <recent name="D:\GDSE63\MyProfile\assets\video" />
+      <recent name="D:\GDSE63\MyProfile\assets\images\logos" />
       <recent name="D:\GDSE63\MyProfile\assets\style" />
       <recent name="D:\GDSE63\MyProfile\assets\js" />
-      <recent name="D:\GDSE63\MyProfile\assets\boostrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDSE63\MyProfile\assessts\images" />
@@ -132,7 +141,8 @@
       <workItem from="1685695920667" duration="590000" />
       <workItem from="1685886777740" duration="63806000" />
       <workItem from="1686014326600" duration="8562000" />
-      <workItem from="1686118015039" duration="13954000" />
+      <workItem from="1686118015039" duration="20045000" />
+      <workItem from="1686206589251" duration="7922000" />
     </task>
     <servers />
   </component>

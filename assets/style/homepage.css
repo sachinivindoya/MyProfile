@@ -106,13 +106,14 @@ nav button:focus {
 
 #home-page{
     height: 100vh;
-    background-image: url("../images/_20230605_090746-removebg-preview (1) (1).png"), url("../images/logos/bg3.png");
+    background-image: url("../images/_20230605_090746-removebg-preview (1) (1).png"), url("../images/logos/bg4.png");
     background-position: right bottom,right  ;
     margin-right: 25px;
-    background-size: 400px,540px;
+    background-size: 400px,630px;
     background-repeat: no-repeat;
     filter: none, blur(50px);
     filter: contrast(110%);
+
 
 }
 .header-text{

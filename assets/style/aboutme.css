@@ -1,4 +1,48 @@
-#second{
-    background-image: url("../images/aboutMe.jpeg");
-    background-size: 950px 1100px;
+/* about */
+
+#about{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("../images/wave1.png"), linear-gradient(to bottom, #ffffff, #777777);
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 75%;
+    clip-path:circle();
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+.title{
+    font-family:"Comic Sans MS";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: navy;
+}
+.description{
+    font-size: 18px;
+    font-family: "Arial Unicode MS";
+    text-align: center;
+    color: white;
+    margin-inside: 2px;
+}
+.glass-effect{
+    background: linear-gradient(135deg, rgba(0,0,255,0.1),rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 20px 40px 0 rgba(2, 25, 61);
+    border: 1px solid rgba(1,1,255,0.18);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
