@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/style/skills.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/work.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/edu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/edu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ravindu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../download/lahiru aiya" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -135,7 +134,8 @@
       <workItem from="1686118015039" duration="20045000" />
       <workItem from="1686206589251" duration="7922000" />
       <workItem from="1686236206737" duration="20762000" />
-      <workItem from="1686323808669" duration="3590000" />
+      <workItem from="1686323808669" duration="4401000" />
+      <workItem from="1686363667897" duration="1524000" />
     </task>
     <servers />
   </component>

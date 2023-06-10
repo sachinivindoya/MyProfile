@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="assets/style/edu.css">         <!-- 3rd page css -->
     <link rel="stylesheet" href="assets/style/work.css">
     <link rel="stylesheet" href="assets/style/skills.css">
+    <link rel="stylesheet" href="assets/style/contact.css">
+    <link rel="stylesheet" href="assets/style/projects.css">
 </head>
 <body>
 <!-- navbar -->
@@ -165,8 +167,39 @@
     </section>
 
     <!-- projects  -->
-    <section id="projects">
+    <section id="projectsSectionMainParent">
+            <span id="mainHeading">PROJECTS DONE BY ME</span>
+            <span id="subHeading">Hover over project icon to see details</span>
+            <div id="categoryParent">
+                <a id="typeAll" class="active" onclick="typeAllClicked()">All</a>
+                <a id="typeMobileApps" onclick="typeMobileAppsClicked()">Mobile Apps</a>
+                <a id="typeWeb" onclick="typeWebClicked()">Web</a>
+                <a id="typeStandalone" onclick="typeStandaloneClicked()">Standalone</a>
+            </div>
+            <div id="projectItemsContainer" class="reveal">
 
+            </div>
+
+            <div id="projectItemControllers">
+
+                <img src="./assets/images/next.png" onclick="leftScrollButtonClicked()" class="slideButtons" id="previousButton" alt="">
+                <div id="slideCount"></div>
+                <img src="./assets/images/next.png" onclick="rightScrollButtonClicked()" class="slideButtons" id="nextButton" alt="">
+
+            </div>
+            <div id="startAProjectSection" class="reveal">
+                <span>Start A Project</span>
+                <span>Interested in working together? We should queue up a chat. I’ll buy the coffee.</span>
+                <a href="">Let's Go</a>
+            </div>
+        </section>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <div >
+            <h1> contact</h1>
+        </div>
     </section>
 </main>
 </body>
