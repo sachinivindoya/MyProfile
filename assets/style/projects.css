@@ -1,3 +1,4 @@
+
 #projectsSectionMainParent {
 
     background-color: #25252f;
@@ -73,7 +74,7 @@
     transform: scale(1.2);
 }
 
-.description {
+.desc {
     background-color: rgba(61, 61, 61, 0.9);
     z-index: 2;
     color: white;
@@ -86,19 +87,19 @@
     opacity: 0;
 }
 
-.description:hover {
+.desc:hover {
     opacity: 1;
     transition: all 300ms;
 }
 
-.description>span {
+.desc>span {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     text-shadow: 1px 1px 5px #000;
 }
 
-.description p{
+.desc p{
     color: white;
     text-align: center;
     font-size: 0.9rem;
@@ -107,7 +108,7 @@
     margin-bottom: 0.3rem;
 }
 
-.description hr{
+.desc hr{
     opacity: 0.5;
     background-color: white;
     height: 1px;
@@ -115,12 +116,12 @@
     margin: 0.1rem auto !important;
 }
 
-.description img {
+.desc img {
     width: 40px;
 }
 
-.description img:hover,
-.description img:focus {
+.desc img:hover,
+.desc img:focus {
     transform: rotateZ(360deg);
     transition: all 500ms;
     cursor: pointer;
@@ -146,58 +147,4 @@
 .slideButtons:hover {
     filter: sepia(79%) saturate(658%) hue-rotate(100deg) brightness(88%)
     contrast(95%);
-}
-
-#startAProjectSection {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    height: 5rem;
-    background-color: #216b9b;
-    color: white;
-    position: absolute;
-    top: 31rem;
-    border-radius: 20px;
-    box-shadow: 4px 4px 9px -2px black;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#startAProjectSection span:first-child {
-    font-family: "Source Code Pro", sans-serif;
-    font-weight: 800;
-    margin-left: 2rem;
-    font-size: 1.3em;
-}
-
-#startAProjectSection span:nth-child(2) {
-    word-wrap: normal;
-    width: 478px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    line-height: 24px;
-    padding: 0 40px;
-}
-
-#startAProjectSection a {
-    color: #4f4f4f;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    padding: 0.3rem;
-    font-size: 1.1rem;
-    background-color: white;
-    width: 9rem;
-    text-align: center;
-    border-radius: 15px;
-    margin-right: 41px;
-    box-shadow: 0px 2px 5px 0px black;
-    text-decoration: none;
-}
-
-#startAProjectSection a:hover,
-#startAProjectSection a:focus {
-    background-color: #1abc9c;
-    color: white;
-    transition: all 400ms ease-in-out;
 }

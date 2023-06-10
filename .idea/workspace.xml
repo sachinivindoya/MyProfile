@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/assignmentImages/assignment1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/assignmentImages/assignment2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/assignmentImages/assignment3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/assignmentImages/inClassAssignment.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/google-drive-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -19,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/assignmentImages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ravindu/MyProfile-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -138,7 +134,7 @@
       <workItem from="1686206589251" duration="7922000" />
       <workItem from="1686236206737" duration="20762000" />
       <workItem from="1686323808669" duration="4401000" />
-      <workItem from="1686363667897" duration="16128000" />
+      <workItem from="1686363667897" duration="18439000" />
     </task>
     <servers />
   </component>
