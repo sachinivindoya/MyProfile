@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/style/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/chat (2).JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/gym1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hostel1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/portfolio.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/portfolio1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pos1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pos2.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -48,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../download/lahiru aiya" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -60,8 +65,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GDSE63\MyProfile\pages\more-details\assets\images" />
       <recent name="D:\GDSE63\MyProfile\assets\images" />
+      <recent name="D:\GDSE63\MyProfile\pages\more-details\assets\images" />
       <recent name="D:\GDSE63\MyProfile\assets\video" />
       <recent name="D:\GDSE63\MyProfile\assets\images\logos" />
       <recent name="D:\GDSE63\MyProfile\assets\style" />
@@ -135,7 +140,7 @@
       <workItem from="1686206589251" duration="7922000" />
       <workItem from="1686236206737" duration="20762000" />
       <workItem from="1686323808669" duration="4401000" />
-      <workItem from="1686363667897" duration="1524000" />
+      <workItem from="1686363667897" duration="9857000" />
     </task>
     <servers />
   </component>
@@ -156,5 +161,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>177</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
