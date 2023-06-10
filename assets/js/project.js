@@ -1,18 +1,19 @@
 const projectItemsContainer = $("#projectItemsContainer");
 const typeAll = $("#typeAll");
 const typeWeb = $("#typeWeb");
-const typeMobileApps = $("#typeMobileApps");
+const typeAssignments = $("#typeAssignments");
 const typeStandalone = $("#typeStandalone");
 
 
 var selectedType = "all";
 const projects = [
     {
-        title: "Cooperative Bank Management System",
-        github: "https://github.com/NaashNix/coopBank",
+        title: "Group Chatting App",
+        github: "https://github.com/sachinivindoya/groupChat",
         type: "standalone",
-        icon: "./assets/images/co-opbank_01.jpeg",
-        description: 'This project was done for my first semester final project. I used Java as the core language in this project.'
+        icon: "assets/images/chat (2).JPG",
+        description: 'This project is done for my second semester Introduction to Networking final project.\n' +
+            '                        I used Java socket programming to develop this application'
     },
     {
         title: "POS-Bootstrap",
@@ -57,7 +58,7 @@ const projects = [
 const typeAllClicked = () => {
     typeAll.removeClass("active");
     typeWeb.removeClass("active");
-    typeMobileApps.removeClass("active");
+    typeAssignments.removeClass("active");
     typeStandalone.removeClass("active");
     typeAll.addClass("active");
     changeProjects("all");
@@ -67,25 +68,25 @@ function typeWebClicked() {
     console.log("web clicked");
     typeAll.removeClass("active");
     typeWeb.removeClass("active");
-    typeMobileApps.removeClass("active");
+    typeAssignments.removeClass("active");
     typeStandalone.removeClass("active");
     typeWeb.addClass("active");
     changeProjects("web");
 }
 
-const typeMobileAppsClicked = () => {
+const typeAssignmentsClicked = () => {
     typeAll.removeClass("active");
     typeWeb.removeClass("active");
-    typeMobileApps.removeClass("active");
+    typeAssignments.removeClass("active");
     typeStandalone.removeClass("active");
-    typeMobileApps.addClass("active");
+    typeAssignments.addClass("active");
     changeProjects("mobileApps");
 };
 
 const typeStandaloneClicked = () => {
     typeAll.removeClass("active");
     typeWeb.removeClass("active");
-    typeMobileApps.removeClass("active");
+    typeAssignments.removeClass("active");
     typeStandalone.removeClass("active");
     typeStandalone.addClass("active");
     changeProjects("standalone");
