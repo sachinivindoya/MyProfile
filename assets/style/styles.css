@@ -1,1 +1,47 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* apply to all */
+*{
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.HomeShape1{
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: -42px;
+    top: -37px;
+    background: white;
+    border: 20px solid rgba(12, 203, 121, 0.74);
+}
+#blog{
+    position: relative;
+    left: 110px;
+    top: 10px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+}
+#blog2{
+    font-family: "Comic Sans MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFA500;
+}
