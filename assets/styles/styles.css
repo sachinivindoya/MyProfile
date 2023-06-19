@@ -104,12 +104,12 @@ header {
     font-size: 38px;
     line-height: 46px;
 
-    color: #FFA500;
+    color: lawngreen;
 }
 
 .headingFirstShape {
     box-sizing: border-box;
-    border-radius: 100px;
+    border-radius: 10px;
     position: absolute;
     width: 110px;
     height: 110px;
@@ -117,7 +117,7 @@ header {
     top: -37px;
 
     background: #ECF0F3;
-    border: 25px solid rgba(246, 160, 2, 0.65);
+    border: 25px solid rgba(12, 162, 5, 0.74);
 }
 
 .headingSecondShape {
