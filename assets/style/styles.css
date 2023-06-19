@@ -322,3 +322,68 @@ main > section:first-child > section:first-child > div:first-child {
     padding-left: 35px;
     transition: all 2s;
 }
+
+/* responsive */
+
+@media (max-width: 996px) {
+    /*header*/
+    .menu {
+        display: none;
+        transition: all .5s;
+    }
+
+    #header-Nav {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin-right: 52px;
+        background: none;
+        border: none;
+        transition: all .5s;
+    }
+
+    #header-Nav i {
+        font-size: 1.8em;
+        color: #FFA500;
+        transition: all .5s;
+    }
+
+    #blog {
+        left: 73px;
+        transition: all .5s;
+    }
+
+    /*home section*/
+    main > section:first-child > section:first-child > div:first-child {
+        width: 888px;
+        gap: 16px;
+        transition: all 2s;
+    }
+
+    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
+        width: 360px;
+        height: 397px;
+        transition: all 2s;
+    }
+
+    main > section:first-child > section:first-child > div:first-child {
+        width: 756px;
+        flex-direction: column-reverse;
+        margin-top: 0;
+        gap: 0;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+        margin-bottom: 44px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav {
+        justify-content: center;
+        transition: all 2s;
+    }
+}
+
