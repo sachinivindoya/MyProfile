@@ -1,0 +1,3475 @@
+/**
+ * @author : Pasan Pahasara
+ * @since : 0.1.0
+ **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Bebas+Neue&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #9494A1;
+}
+
+* {
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar
+   ========================================================================== */
+
+/**
+ * Customized Scrollbar.
+ */
+::-webkit-scrollbar {
+    display: none;
+    width: 6px;
+    background: #3f3838;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFA500;
+}
+
+/**
+ * Scroll Up Button.
+ */
+#scroll_up_btn {
+    position: fixed;
+    opacity: 40%;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #FFA500;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+#scroll_up_btn > i {
+    font-size: 19px;
+    color: #fff !important;
+    line-height: 0;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+
+#scroll_up_btn:hover {
+    color: #FFA500 !important;
+    opacity: 100%;
+    transform: translateY(-10px);
+}
+
+/*//////////////////////////////////////////*/
+header {
+    position: fixed;
+    background: #ECF0F3;
+    width: 100%;
+    top: 0;
+    height: 73px;
+    z-index: 999;
+}
+
+#heading1 {
+    position: relative;
+    left: 120px;
+    top: 15px;
+    text-decoration: none;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #000000;
+}
+
+#heading2 {
+    font-family: "Agency FB";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFA500;
+}
+
+.headingFirstShape {
+    box-sizing: border-box;
+    border-radius: 100px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: -42px;
+    top: -37px;
+
+    background: #ECF0F3;
+    border: 25px solid rgba(246, 160, 2, 0.65);
+}
+
+.headingSecondShape {
+    position: absolute;
+    border-radius: 100px;
+    width: 133px;
+    height: 133px;
+    right: -58px;
+    top: -58px;
+
+    background: rgba(254, 182, 51, 0.49);
+}
+
+.menu {
+    position: absolute;
+    right: 110px;
+    top: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: Bahnschrift !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu ul li a {
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.3s all;
+    color: #000000;
+}
+
+.menu ul li a:hover {
+    color: #FFA500;
+}
+
+.menu ul li #active {
+    color: #FFA500;
+}
+
+.hover-line::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 6px;
+    background-color: #FFA500;
+    border-radius: 26%;
+    transition: width .3s;
+}
+
+.hover-line:hover::after {
+    width: 40%;
+    transition: width .3s;
+}
+
+.active-hover-line::after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 6px;
+    background-color: #FFA500;
+    border-radius: 26%;
+    transition: width .3s;
+}
+
+/**
+* main section
+*/
+main {
+    position: relative;
+    margin-top: 73px;
+    width: 100%;
+}
+
+/*  home section
+   ========================================================================== */
+
+main > section:nth-child(1) {
+    position: relative;
+    background: #ECF0F3;
+    width: 100%;
+}
+
+/**
+* description section
+*/
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+    font-family: Poppins;
+    font-size: 31px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #FFA500;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
+    font-family: Poppins;
+    font-size: 55px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #FFA500;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
+    font-family: Poppins;
+    font-size: 55px;
+    color: #000000;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
+    font-family: Poppins ;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
+    font-family: Poppins;
+    font-size: 50px;
+    color: #FFA500;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+/*
+* description section button
+*/
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) {
+    position: relative;
+    width: 206px;
+    height: 68px;
+    background-color: #FFA500;
+    border-radius: 46px;
+    box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.36);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-width: 0;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div {
+    position: absolute;
+    top: 5px;
+    left: 141px;
+    height: 58px;
+    width: 60px;
+    border-radius: 100%;
+    background: #F9FAFB;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    cursor: pointer;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div:first-child > i:first-child {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    left: 29%;
+    top: 29%;
+    bottom: 41.09%;
+    color: #FFA500;
+    cursor: pointer;
+}
+
+/**
+* social links section
+*/
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #909597;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav {
+    display: flex;
+    gap: 15px;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
+    width: 67px;
+    height: 67px;
+    background: rgba(236, 240, 243, 0.85);
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 15px;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div > a > i {
+    position: relative;
+    left: 23%;
+    top: 23%;
+    font-size: 2.40em;
+    color: #909597;
+    cursor: pointer;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > a > i {
+    font-size: 2.00em;
+    top: 29%;
+    left: 32%;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div:hover ,a > i:hover{
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+    color: #FFA500 !important;
+}
+
+/**
+* first shape in home section
+*/
+main > section:first-child > section > div:first-child > div:first-child {
+    box-sizing: border-box;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 138px;
+    top: 92px;
+    border: 7px solid rgba(255, 165, 0, 0.52);
+    transform: matrix(0.6, 0.8, -0.79, 0.6, 0, 0);
+}
+
+/**
+* second shape in home section
+*/
+main > section:first-child > section > div:first-child > div:nth-child(3) {
+    box-sizing: border-box;
+    border-radius: 100%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 722px;
+    top: 160px;
+    border: 6px solid rgba(255, 165, 0, 0.52);
+}
+
+/**
+* main image section in home section
+*/
+main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
+    background: url(../img/MyPhoto.svg);
+    width: 440px;
+    height: 547px;
+    background-size: cover;
+    position: relative;
+    bottom: 18px;
+}
+
+/**
+* dash line in home section
+*/
+main > section:first-child > section > div:first-child > div:nth-child(5) {
+    position: absolute;
+    right: 169px;
+    top: 131px;
+}
+
+main > section:first-child > section:first-child {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section:first-child > section:first-child > div:first-child {
+    width: 1100px;
+    display: flex;
+    gap: 66px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    margin-top: 35px;
+    padding-left: 35px;
+    transition: all 2s;
+}
+
+/*  about section
+   ========================================================================== */
+
+main > section:nth-child(2) {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: rgba(236, 240, 243, 0.4);
+}
+
+/**
+* title in about section
+*/
+main > section:nth-child(2) > section:first-child {
+    position: relative;
+    text-align: center;
+    padding-top: 68px;
+}
+
+main > section:nth-child(2) > section:first-child > h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: initial;
+    font-size: 25px;
+    color: #FFA500 !important;
+    text-align: center;
+    padding-top: 12px;
+    margin: 0;
+}
+
+main > section:nth-child(2) > section:first-child > h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+}
+
+main > section:nth-child(2) > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    bottom: 2px;
+    left: calc(50% - 60px);
+    border-radius: 2px;
+}
+
+main > section:nth-child(2) > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: #FFA500;
+    bottom: 0;
+    left: calc(50% - 20px);
+    border-radius: 3px;
+}
+
+
+/**
+* first cube shape in about section
+*/
+main > section:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 120px;
+    top: 173px;
+}
+
+
+/**
+* about description in about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) {
+    width: 667px;
+    display: flex;
+    flex-direction: column;
+}
+
+/**
+* description title in about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > h2:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    line-height: 52px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+/**
+* introducing description in about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > p:nth-child(2), p:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #9494A1 !important;
+    margin-top: 0;
+}
+
+/**
+* wave shape in about section
+*/
+#aboutWave {
+    position: absolute;
+    width: 352px;
+    height: 74px;
+    fill: none;
+    left: 0px;
+    top: 730px;
+}
+
+/**
+* line circle shape in about section
+*/
+#aboutLineCircle {
+    position: absolute;
+    width: 114px;
+    height: 157px;
+    fill: none;
+    right: 0;
+    bottom: 25px;
+}
+
+/**
+* my details position and introducing display type about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) {
+    position: relative;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**
+* my details column 1 titles customized about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column1 > p {
+    font-family: Poppins;
+    font-size: 17px;
+    color: var(--text-black-900) !important;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column1 > p > i:first-child {
+    color: #FFA500;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+/**
+* my details column 1 span customized about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column1 > p > span {
+    color: var(--text-black-700) !important;
+}
+
+/**
+* my details column 2 titles customized about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 > p {
+    font-family: Poppins;
+    font-size: 17px;
+    color: var(--text-black-900) !important;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 > p > i:first-child {
+    color: #FFA500;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+/**
+* introduced my details column 2 position about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 {
+    position: absolute;
+    right: 0;
+}
+
+/**
+* my details column 2 span customized about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 > p > span {
+    color: var(--text-black-700) !important;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) {
+    position: relative;
+    top: 16px;
+    margin-bottom: 65px;
+}
+
+/**
+* description section button position about section
+*/
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child {
+    width: 209px;
+    height: 46px;
+    background-color: #464444;
+    box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.36);
+    border-radius: 25px;
+    font-family: 'Ubuntu', SansSerif;
+    text-align: left;
+    padding-left: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-width: 0;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child > div {
+    position: absolute;
+    width: 43px;
+    height: 42px;
+    left: 163px;
+    top: 2px;
+    border-radius: 100%;
+    background: #F9FAFB;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    cursor: pointer;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child > div:first-child > i:first-child {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    left: 32%;
+    top: 30%;
+    bottom: 41.09%;
+    color: #FFA500;
+    cursor: pointer;
+}
+
+main > section:nth-child(2) > section:nth-child(3) {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child {
+    width: 1100px;
+    display: flex;
+    gap: 92px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 67px;
+    margin-right: 67px;
+    transition: all 2s;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > div:first-child > p:nth-child(6) {
+    display: none;
+}
+
+main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > div:first-child > p:nth-child(7) {
+    display: none;
+}
+
+/*  services section
+   ========================================================================== */
+
+main > section:nth-child(3) {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #ECF0F3;;
+}
+
+/**
+* title in service section
+*/
+main > section:nth-child(3) > section:first-child {
+    position: relative;
+    text-align: center;
+    padding-top: 68px;
+}
+
+main > section:nth-child(3) > section:first-child > h4 {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: initial;
+    font-size: 25px;
+    color: #FFA500 !important;
+    text-align: center;
+    padding-top: 12px;
+    margin: 0;
+}
+
+main > section:nth-child(3) > section:first-child > h1 {
+    font-family: Ubuntu, sans-serif !important;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+}
+
+/**
+* title underline in service section
+*/
+main > section:nth-child(3) > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    bottom: 2px;
+    left: calc(50% - 60px);
+    border-radius: 2px;
+}
+
+main > section:nth-child(3) > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: #FFA500;
+    bottom: 0;
+    left: calc(50% - 20px);
+    border-radius: 3px;
+}
+
+/**
+* div tags customized service section
+*/
+main > section:nth-child(3) > section:nth-child(2) > section > div {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    background: #ECF0F3;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 25px;
+}
+
+main > section:nth-child(3) > section:nth-child(2) {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 69px;
+    transition: all 2s;
+}
+
+/**
+* main section position and display flex service section
+*/
+main > section:nth-child(3) > section:nth-child(2) > section {
+    width: 1095px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 66px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: all 2s;
+}
+
+/**
+* images position service section
+*/
+main > section:nth-child(3) > section:nth-child(2) > section > div > div:first-child {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    height: 50px;
+    margin: auto;
+}
+
+/**
+* added images colors and sizes service section
+*/
+main > section:nth-child(3) > section:nth-child(2) > section > div > div:first-child > i {
+    color: #FFA500;
+    font-size: 2.40em;
+}
+
+/**
+* added headings and positions headings service section
+*/
+main > section:nth-child(3) > section:nth-child(2) > section > div > h4:nth-child(2) {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    right: 0;
+    font-family: 'Ubuntu'!important;
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+/**
+* added descriptions service section
+*/
+main > section:nth-child(3) > section:nth-child(2) > section > div > p:nth-child(3) {
+    position: absolute;
+    width: 264px;
+    top: 155px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 17px;
+    text-align: center;
+    color: #9494A1 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/**
+* added cube shape service section
+*/
+main > section:nth-child(3) > div:nth-child(3) {
+    position: absolute;
+    width: 248px;
+    height: 208px;
+    right: 58px;
+    margin: auto;
+    top: 812px;
+    z-index: 1;
+    transition: all 2s;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+main > section:nth-child(3) > section:nth-child(2) > section:first-child > div:hover {
+    transition: all 0.8s ease;
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+    box-shadow: 1px 1px 54px 1px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+/*/////////////////////////////////////////////////////////*/
+/*  skills section
+   ========================================================================== */
+
+main > section:nth-child(4) {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #ECF0F3;;
+}
+
+/**
+* title in skills section
+*/
+main > section:nth-child(4) > section:first-child {
+    position: relative;
+    text-align: center;
+    padding-top: 68px;
+}
+
+main > section:nth-child(4) > section:first-child > h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: initial;
+    font-size: 25px;
+    color: #FFA500 !important;
+    text-align: center;
+    padding-top: 12px;
+    margin: 0;
+}
+
+main > section:nth-child(4) > section:first-child > h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+}
+
+/**
+* title underline in skills section
+*/
+main > section:nth-child(4) > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    bottom: 2px;
+    left: calc(50% - 60px);
+    border-radius: 2px;
+}
+
+main > section:nth-child(4) > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: #FFA500;
+    bottom: 0;
+    left: calc(50% - 20px);
+    border-radius: 3px;
+}
+
+/**
+* added cube shape skills section
+*/
+#skillsCube {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 115px;
+    top: 104px;
+}
+
+/**
+* added button section position skills section
+*/
+main > section:nth-child(4) > section:nth-child(3) {
+    position: absolute;
+    left: 172px;
+    top: 179px;
+}
+
+/**
+* customized buttons size, shadow and color skills section
+*/
+main > section:nth-child(4) > section:nth-child(3) > nav:first-child > div > button {
+    width: 272px;
+    height: 99px;
+    background: #ECF0F3;
+    box-shadow: inset -23px -23px 45px #FFFFFF, inset 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 25px;
+    cursor: pointer;
+    border-width: 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 26px;
+    color: #FFA500;
+}
+
+/**
+* buttons wrapping and position flex type skills section
+*/
+main > section:nth-child(4) > section:nth-child(3) > nav:first-child {
+    display: flex;
+    background: #ECF0F3;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 25px;
+}
+
+main > section:nth-child(4) > section:nth-child(6) {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+main > section:nth-child(4) > section:nth-child(6) > div:first-child {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main > section:nth-child(4) > section:nth-child(6) > div:first-child > img {
+    width: 98vw;
+}
+
+main > section:nth-child(4) > div:nth-child(4) {
+    position: absolute;
+    width: 576px;
+    top: 126px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#skillsDashArrowShape {
+    position: relative;
+    width: 580px;
+    height: 356px;
+    fill: none;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/**
+* circle shape position skills section
+*/
+#skillCircleShape {
+    position: absolute;
+    left: 1101px;
+    top: 413px;
+    fill: none;
+}
+
+/**
+* square shape position skills section
+*/
+#skillSquareShape {
+    position: absolute;
+    left: 941px;
+    top: 948px;
+    fill: none;
+}
+
+/**
+* rectangle shape position skills section
+*/
+#skillRectangleShape {
+    position: absolute;
+    left: 300px;
+    top: 1090px;
+    fill: none;
+}
+
+/**
+* second cube position skills section
+*/
+main > section:nth-child(4) > div:nth-child(9) {
+    position: absolute;
+    left: 98px;
+    top: 731px;
+}
+
+/**
+* third cube position skills section
+*/
+main > section:nth-child(4) > div:nth-child(10) {
+    position: absolute;
+    left: 1093px;
+    top: 1073px;
+}
+
+#skillHeadings {
+    display: flex;
+    justify-content: center;
+    gap: 232px;
+    margin-top: 40px;
+    font-family: Ubuntu, sans-serif;
+}
+
+#btnEducation {
+    color: hsl(250, 8%, 45%);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#btnWork {
+    color: hsl(250, 8%, 45%);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#eduIcon {
+    padding-right: 5px;
+}
+
+#workIcon {
+    padding-right: 9px;
+}
+
+#lan-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+}
+
+#languages {
+    color: hsl(250, 8%, 45%);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#lanIcon {
+    padding-right: 9px;
+}
+
+#icon-section {
+    align-items: center;
+    justify-content: center;
+    width: 79%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slide-track {
+    animation: 50s linear infinite;
+    animation-name: slider-animation;
+    animation-direction: normal;
+    display: flex;
+    animation-delay: .5s;
+    width: calc(100px * 14);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes slider-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*  gallery section
+========================================================================== */
+
+main > section:nth-child(5) {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #ECF0F3;;
+}
+
+/**
+* title in gallery section
+*/
+main > section:nth-child(5) > section:first-child {
+    position: relative;
+    text-align: center;
+    padding-top: 0;
+}
+
+main > section:nth-child(5) > section:first-child > h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: initial;
+    font-size: 25px;
+    color: #FFA500 !important;
+    text-align: center;
+    padding-top: 12px;
+    margin: 0;
+}
+
+
+main > section:nth-child(5) > section:first-child > h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+}
+
+/**
+* title underline in gallery section
+*/
+main > section:nth-child(5) > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    bottom: 2px;
+    left: calc(50% - 60px);
+    border-radius: 2px;
+}
+
+main > section:nth-child(5) > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: #FFA500;
+    bottom: 0;
+    left: calc(50% - 20px);
+    border-radius: 3px;
+}
+
+/**
+* added section positions gallery section
+*/
+main > section:nth-child(5) > section:nth-child(2) {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 7px;
+}
+
+/**
+* added section display type grid
+*/
+main > section:nth-child(5) > section:nth-child(2) > section:first-child {
+    width: 1100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+}
+
+/**
+* customized all divs
+*/
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div {
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
+    border-radius: 15px;
+}
+
+/**
+ * Customized 01 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:first-child {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    background: url("../img/gallery/img_1.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 02 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(2) {
+    background: url("../img/gallery/img_2.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 03 Image grid-column and grid-row
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(3) {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    background: url("../img/gallery/img_3.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 04 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(4) {
+    background: url("../img/gallery/img_4.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 05 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(5) {
+    background: url("../img/gallery/img_5.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 06 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(6) {
+    background: url("../img/gallery/img_6.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 07 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(7) {
+    background: url("../img/gallery/img_7.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 08 Image grid-column and grid-row
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(8) {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background: url("../img/gallery/img_8.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Added Hover Effects
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:hover {
+    transition: all 0.5s ease;
+    -webkit-transform: scale(0.96);
+    transform: scale(0.96);
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.68);
+    cursor: pointer;
+}
+
+/*  project section
+   ========================================================================== */
+
+main > section:nth-child(6) {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #ECF0F3;;
+}
+
+/**
+* title in project section
+*/
+main > section:nth-child(6) > section:first-child {
+    position: relative;
+    text-align: center;
+    padding-top: 68px;
+}
+
+main > section:nth-child(6) > section:first-child > h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: initial;
+    font-size: 25px;
+    color: #FFA500 !important;
+    text-align: center;
+    padding-top: 12px;
+    margin: 0;
+}
+
+main > section:nth-child(6) > section:first-child > h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+}
+
+/**
+* title underline in project section
+*/
+main > section:nth-child(6) > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    bottom: 2px;
+    left: calc(50% - 60px);
+    border-radius: 2px;
+}
+
+main > section:nth-child(6) > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: #FFA500;
+    bottom: 0;
+    left: calc(50% - 20px);
+    border-radius: 3px;
+}
+
+/**
+* added section and display flex type project section
+*/
+main > section:nth-child(6) > section:nth-child(2) {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
+* added display flex and wrap project section
+*/
+.wrapper {
+    width: 1100px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 67px;
+    margin-right: 67px;
+    flex-wrap: wrap;
+}
+
+/**
+* position card project section
+*/
+.card {
+    position: relative;
+    width: 339px;
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/**
+* added image padding project section
+*/
+.card-inner {
+    padding-right: 30px;
+}
+
+/**
+* position image project section
+*/
+.card-thumb {
+    position: relative;
+    z-index: 2;
+}
+
+/**
+* customized image sizes project section
+*/
+.card-thumb img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/**
+* customized icon wrapper project section
+*/
+.card-thumb span {
+    width: 80px;
+    height: 80px;
+    background-color: #FFA500;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+    transform: translateY(50%);
+    transition: .5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+/**
+* added hover and color change project section
+*/
+.card-inner:hover .card-thumb span {
+    background-color: #fff;
+    color: #FFA500;
+    box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.16), -23px -23px 45px #FFFFFF,;
+}
+
+/**
+* customized card-details and position project section
+*/
+.card_detail {
+    position: relative;
+    height: 290px;
+    z-index: 1;
+    left: 30px;
+    text-align: center;
+    padding-top: 39px;
+}
+
+/**
+* customized card and position project section
+*/
+.card_detail::before {
+    position: absolute;
+    content: " ";
+    background-color: #ECF0F3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -200px;
+    z-index: -1;
+    transition: .5s;
+    border-radius: 0 15px 138px 15px;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+}
+
+/**
+* added hover and card-inner, card-detail color change project section
+*/
+.card-inner:hover .card_detail::before {
+    background-color: #FFA500;
+}
+
+/**
+* added hover heading, description and icon project section
+*/
+.card-inner:hover .card_detail h4,
+.card-inner:hover .card_detail p,
+.card-inner:hover .card_detail a {
+    color: #fff;
+}
+
+/**
+* customized heading project section
+*/
+.card_detail h4 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #444;
+    margin: 1px 50px 15px;
+    transition: .5s;
+}
+
+/**
+* customized description project section
+*/
+.card_detail p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+    transition: .5s;
+    margin: 0 20px 20px;
+}
+
+/**
+* customized icon project section
+*/
+.card_detail a {
+    font-size: 27px;
+    color: #FFA500;
+    transition: .5s;
+}
+
+/**
+* added project counting section
+*/
+main > section:nth-child(6) > div:nth-child(3) {
+    width: 100%;
+    height: 250px;
+    margin-top: 60px;
+    background: rgba(255, 165, 0, 0.94);
+    box-shadow: -23px -23px 45px rgba(0, 0, 0, 0.25), 28px 28px 50px rgba(13, 39, 80, 0.16);
+}
+
+/**
+* added project counting section position and display type flex
+*/
+main > section:nth-child(6) > div:nth-child(3) > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 748px;
+}
+
+main > section:nth-child(6) > div:nth-child(3) > div > div {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main > section:nth-child(6) > section:nth-child(4) > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+
+/**
+* added project counts section and justify-content space around
+*/
+main > section:nth-child(6) > section:nth-child(4) > div:first-child > div:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 68%;
+    background: #ECF0F3;
+    box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.16), inset -23px -23px 45px #FFFFFF;
+    border-radius: 25px;
+}
+
+/**
+* added project counts section positions justify-content center
+*/
+main > section:nth-child(6) > section:nth-child(4) {
+    display: flex;
+    margin-top: -96px;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
+* added cube shape project section
+*/
+main > section:nth-child(6) > div:nth-child(3) > div > div:nth-child(2) {
+    margin-top: 226px;
+    margin-right: -32px;
+    z-index: 3;
+}
+
+main > section:nth-child(6) > section:nth-child(4) > div:first-child > div:first-child > div {
+    margin-block-start: 24px;
+    margin-inline-start: 36px;
+    width: 173px;
+    height: 153px;
+}
+
+
+/**
+* added heading dots
+*/
+.headingDots {
+    position: absolute;
+    margin-inline-start: 33px;
+    width: 5.375em;
+}
+
+/**
+* added number count and customized
+*/
+main > section:nth-child(6) > section:nth-child(4) > div:first-child > div:first-child > div > p:nth-child(2) {
+    font-family: 'Lato';
+    font-size: 74px;
+    color: #000000 !important;
+    margin: 25px 0px 0px;
+    text-align: center;
+}
+
+/**
+* added description and customized
+*/
+main > section:nth-child(6) > section:nth-child(4) > div:first-child > div:first-child > div > p:nth-child(3) {
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #000000 !important;
+    margin: 0px 0px 0px -24px;
+    text-align: center;
+}
+
+/**
+* title in clients section
+*/
+main > section:nth-child(6) > section:nth-child(5) {
+    position: relative;
+    text-align: center;
+    margin-top: 47px;
+}
+
+main > section:nth-child(6) > section:nth-child(5) > h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: initial;
+    font-size: 25px;
+    color: #FFA500 !important;
+    padding-top: 12px;
+    margin: 0;
+}
+
+main > section:nth-child(6) > section:nth-child(5) > h1 {
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000 !important;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+/**
+* title underline position and display flex type in project section
+*/
+main > section:nth-child(6) > section:nth-child(5) > div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 101px;
+    gap: 15px;
+}
+
+main > section:nth-child(6) > section:nth-child(5) > div:nth-child(3) > div:first-child {
+    width: 30px;
+    height: 8px;
+    background: #FFA500 !important;
+    border-radius: 3px;
+}
+
+main > section:nth-child(6) > section:nth-child(5) > div:nth-child(3) > div:nth-child(2) {
+    top: -8px;
+    width: 89px;
+    height: 8px;
+    background: #FFA500 !important;
+    left: 27.89%;
+    border-radius: 3px;
+}
+
+/**
+* added photo cover circles in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:first-child {
+    width: 200px;
+    height: 197px;
+    background: #ECF0F3;
+    border: 12px solid #000000;
+    border-radius: 100%;
+    position: relative;
+}
+
+/**
+* added description boxes in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) {
+    width: 330px;
+    height: 330px;
+    background: #ECF0F3;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 93px;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -245px;
+}
+
+/**
+* added position center and display type flex in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/**
+* added display type inline-flex and added gap in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child {
+    width: 1089px;
+    margin-left: 67px;
+    margin-right: 67px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49px;
+    justify-content: center;
+    align-items: center;
+}
+
+/**
+* added cover circle flex direction column and center in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**
+* position first client image in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > img:nth-child(2) {
+    position: relative;
+    bottom: 174px;
+    z-index: 2;
+}
+
+/**
+* customized all clients names in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) > div > h3:first-child {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+/**
+* added display type inline-flex and flex-direction column in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) > div {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 69px;
+}
+
+/**
+* customized all clients descriptions in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) > div > p:nth-child(2) {
+    width: 217px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/**
+* added quote size in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(4) > i {
+    font-size: 2em;
+}
+
+/**
+* added quote position in client section
+*/
+main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(4) {
+    position: relative;
+    bottom: 199px;
+    left: 121px;
+    z-index: 1;
+}
+
+/**
+* added hover in client section
+*/
+.client-inner .wrap-client:hover .client-details h3, .client-inner .wrap-client:hover .client-details p {
+    color: #fff !important;
+    transition: all .5s;
+}
+
+.client-inner:hover .client-quote i {
+    color: #fff;
+    transition: all .5s;
+}
+
+.client-inner:hover .client-circle {
+    border-color: #FFA500 !important;
+    transition: all .5s;
+}
+
+.client-inner .wrap-client:hover {
+    background-color: #FFA500 !important;
+    transition: all .5s;
+}
+
+/*  contact section
+   ========================================================================== */
+
+main > section:nth-child(7) {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #ECF0F3;;
+}
+
+/**
+* title in contact section
+*/
+main > section:nth-child(7) > section:first-child {
+    position: relative;
+    text-align: center;
+    padding-top: 68px;
+}
+
+main > section:nth-child(7) > section:first-child > h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: initial;
+    font-size: 25px;
+    color: #FFA500 !important;
+    text-align: center;
+    padding-top: 12px;
+    margin: 0;
+}
+
+main > section:nth-child(7) > section:first-child > h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+}
+
+/**
+* title underline position and display flex type in contact section
+*/
+main > section:nth-child(7) > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    bottom: 2px;
+    left: calc(50% - 60px);
+    border-radius: 2px;
+}
+
+main > section:nth-child(7) > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: #FFA500;
+    bottom: 0;
+    left: calc(50% - 20px);
+    border-radius: 3px;
+}
+
+/**
+* customized titles, display type and flex-direction in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:first-child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+/**
+* customized first title
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:first-child > h3:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    margin: 0px 0px 13px;
+    text-align: center;
+    color: #FFA500;
+}
+
+/**
+* customized second title
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:first-child > h4:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #302E4D;
+}
+
+/**
+* contact details display flex type and justify-content center in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) {
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
+* contact details justify-content space-evenly in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 1004px;
+}
+
+/**
+* all contact details divs added flex-direction column and align-items center in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**
+* customized all contact detail sections title fonts sizes in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+/**
+* customized all contact detail sections icons sizes and colors in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+    color: #FFA500;
+    font-size: 1.99em;
+}
+
+/**
+* customized all contact detail sections descriptions fonts sizes in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/**
+* customized send me email section titles, display type and flex-direction in contact section
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+/**
+* Added send me email section first title
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h3:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    margin: 0px 0px 13px;
+    text-align: center;
+    color: #FFA500;
+}
+
+/**
+* Added send me email section second title
+*/
+main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h4:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #302E4D;
+}
+
+/**
+* send me email section position center
+*/
+main > section:nth-child(7) > section:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/**
+* customized name and email texts in contact section
+*/
+.contactDetails > input {
+    width: 39vw;
+    height: 44px;
+    background: #F7F8FA;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 43px;
+    border: none;
+    padding: 0 0 0 20px;
+}
+
+/**
+* customized subject text in contact section
+*/
+main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(2) > input {
+    width: 81vw;
+    height: 44px;
+    background: #F7F8FA;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 43px;
+    border: none;
+    padding: 0 0 0 20px;
+}
+
+/**
+* customized message textarea in contact section
+*/
+main > section:nth-child(7) > section:nth-child(3) > form:first-child > fieldset > div:nth-child(3) > textarea {
+    width: 81vw;
+    height: 184px;
+    background: #F7F8FA;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 43px;
+    border: none;
+    padding: 20px 0 0 20px;
+}
+
+main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(3) {
+    position: relative;
+}
+
+/**
+* added display type flex and flex-direction column send message section in contact section
+*/
+main > section:nth-child(7) > section:nth-child(3) > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**
+* added flex-direction row and gap name and email in contact section
+*/
+main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:first-child {
+    display: flex;
+    flex-direction: row;
+    gap: 2.9vw;
+}
+
+/**
+* added button and customized it in contact section
+*/
+main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
+    display: flex;
+    gap: 27px;
+    width: 185px;
+    height: 49px;
+    background: #464444;
+    box-shadow: 28px 28px 50px rgba(151, 153, 155, 0.36);
+    border-radius: 46px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 14px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div {
+    margin-top: -10px;
+    width: 40px;
+    height: 42px;
+    border-radius: 100%;
+    background: #F9FAFB;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
+main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div > i {
+    position: relative;
+    left: 27.5%;
+    top: 27.19%;
+    color: #FFA500;
+}
+
+/**
+* added form flex-direction column and gap in contact section
+*/
+main > section:nth-child(7) > section:nth-child(3) > form {
+    display: inline-block;
+}
+
+main > section:nth-child(7) > section:nth-child(3) > form > fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    gap: 29px;
+    border: none;
+}
+
+/*  footer
+   ========================================================================== */
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #464444;
+}
+
+/**
+* customized h1 in footer
+*/
+footer > section:first-child > div:first-child > h2:first-child {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/**
+* customized span in footer
+*/
+footer > section:first-child > div:first-child > h2:first-child > span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: #FFA500;
+}
+
+/**
+* added section display type flex and justify-content center in footer section
+*/
+footer > section:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
+* added social media icons justify-content space-evenly in footer section
+*/
+footer > section:first-child > div:first-child > nav:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/**
+* added section display type flex and flex-direction column in footer section
+*/
+footer > section:first-child > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+/**
+* added section added gap and justify-content space-evenly in footer section
+*/
+footer > section:first-child > div:first-child > nav:nth-child(3) > ul:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 37px
+}
+
+/**
+* customized social media icons covers in footer
+*/
+footer > section:first-child > div:first-child > nav:nth-child(2) > div {
+    width: 50px;
+    height: 50px;
+    background: #464444;
+    box-shadow: -4px -4px 12px rgba(236, 236, 236, 0.1), 4px 4px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/**
+* added social media icons hover effects in footer
+*/
+footer > section:first-child > div:first-child > nav:nth-child(2) > div:hover {
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(2) > div:hover > a > i:hover {
+    transition: all 0.5s ease;
+    color: #FFA500 !important;
+}
+
+/**
+* customized social media icons and added color in footer section
+*/
+footer > section:first-child > div:first-child > nav:nth-child(2) > div > a > i {
+    font-size: 2.00em;
+    color: #909597;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+/**
+* added list color and font size in footer section
+*/
+footer > section:first-child > div:first-child > nav:nth-child(3) > ul:first-child > li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    list-style: none;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(3) > ul:first-child > li > a {
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.3s all;
+    color: #FFFFFF;
+}
+
+/**
+* added hover menu list in footer section
+*/
+footer > section:first-child > div:first-child > nav:nth-child(3) > ul:first-child > li > a:hover {
+    color: #FFA500;
+    transition: 0.5s all;
+}
+
+/**
+* customized copyrights section in footer
+*/
+footer > section:nth-child(3) {
+    background: #343030;
+    text-align: center;
+}
+
+/**
+* added color copyrights section text in footer
+*/
+footer > section:nth-child(3) > small:first-child {
+    color: #D3D3D3;
+}
+
+#aboutCube2 {
+    display: none;
+}
+
+footer > section:first-child > div:first-child > h2:nth-child(4) {
+    display: none;
+}
+
+footer > section:first-child > div:first-child > h2:nth-child(4) > span {
+    display: none;
+}
+
+@media (max-width: 1231px) {
+    /*about section*/
+    main > section:first-child > section:first-child > div:first-child {
+        width: 1100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+        margin-top: 69px;
+        row-gap: 15px;
+        transition: all 2s;
+    }
+
+    #aboutWave {
+        display: block;
+        position: absolute;
+        width: 352px;
+        height: 74px;
+        fill: none;
+        left: 0px;
+        top: 588px;
+        transition: all 2s;
+    }
+
+    #aboutCube2 {
+        display: block;
+        position: absolute;
+        width: 114px;
+        height: 157px;
+        fill: none;
+        right: 160px;
+        top: 433px;
+        transition: all 2s;
+        z-index: -1;
+    }
+
+    /*services section*/
+    main > section:nth-child(3) > section:nth-child(2) > section {
+        transition: all 2s;
+    }
+
+    main > section:nth-child(3) > div:nth-child(3) {
+        top: 1200px;
+        transition: all 2s;
+    }
+
+    /*gallery section*/
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child {
+        width: 900px;
+        height: 500px;
+        display: grid;
+        transition: all 2s;
+    }
+
+    /*project section*/
+    .wrapper {
+        width: 900px;
+        gap: 28px;
+        row-gap: 60px;
+        transition: all 2s;
+    }
+
+    .card {
+        width: 430px;
+        transition: all 2s;
+    }
+
+    .card_detail h4 {
+        margin: 22px 50px 15px;
+        transition: .5s;
+    }
+
+    .card_detail p {
+        font-family: 'Poppins';
+        color: #666;
+        font-size: 15px;
+        transition: all 2s;
+    }
+
+    /*home section*/
+    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
+        width: 380px;
+        height: 487px;
+    }
+
+    main > section:first-child > section:first-child > div:first-child {
+        margin-top: 2px;
+        transition: all 2s;
+    }
+
+    /*client section*/
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child {
+        width: 1087px;
+        row-gap: 16px;
+        transition: all .5s;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) {
+        margin-top: 45px;
+        transition: all .5s;
+    }
+
+    /*contact section*/
+    main > section:nth-child(7) > section:first-child {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1179px) {
+    /*home section*/
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+        font-size: 26px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
+        font-size: 45px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
+        font-size: 45px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
+        font-size: 45px;
+        margin-top: 9px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
+        font-size: 40px;
+        margin-top: 9px;
+        margin-bottom: 12px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
+        font-size: 40px;
+        margin-top: 9px;
+        margin-bottom: 12px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) {
+        width: 177px;
+        height: 57px;
+        font-size: 22px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div {
+        top: 4px;
+        left: 120px;
+        height: 50px;
+        width: 52px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > h3 {
+        font-size: 18px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
+        width: 55px;
+        height: 55px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > a > i {
+        font-size: 1.7em;
+        left: 32%;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div > a > i {
+        left: 23%;
+        top: 26%;
+        font-size: 1.9em;
+        transition: all 2s;
+    }
+}
+
+@media (max-width: 1024px) {
+    /*contact section*/
+    main > section:nth-child(7) > section:nth-child(2) > section:first-child > h3:first-child {
+        font-size: 25px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:first-child > h4:nth-child(2) {
+        font-size: 19px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) {
+        margin-top: 68px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div {
+        width: 760px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+        font-size: 1.5em;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+        font-size: 17px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+        font-size: 16px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h3:first-child {
+        font-size: 25px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h4:nth-child(2) {
+        font-size: 19px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) {
+        margin-top: 65px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) {
+        margin-top: 46px;
+        transition: all 2s;
+    }
+
+    /*footer section*/
+    footer > section:first-child > div:first-child > h2:first-child {
+        font-size: 40px;
+        transition: all 2s;
+    }
+
+    footer > section:first-child > div:first-child > h2:first-child > span {
+        font-size: 40px;
+        transition: all 2s;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(2) {
+        gap: 20px;
+        transition: all 2s;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(2) > div {
+        width: 35px;
+        height: 35px;
+        transition: all 2s;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(2) > div > a > i {
+        font-size: 20px;
+        transition: all 2s;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(3) > ul:first-child {
+        gap: 29px;
+        transition: all 2s;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(3) > ul:first-child > li {
+        font-size: 13px;
+        transition: all 2s;
+    }
+}
+
+@media (max-width: 996px) {
+    /*header*/
+    .menu {
+        display: none;
+        transition: all .5s;
+    }
+
+    #header-Nav {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin-right: 52px;
+        background: none;
+        border: none;
+        transition: all .5s;
+    }
+
+    #header-Nav i {
+        font-size: 1.8em;
+        color: #FFA500;
+        transition: all .5s;
+    }
+
+    .headingSecondShape {
+        right: -82px;
+        transition: all .5s;
+    }
+
+    #heading1 {
+        left: 73px;
+        transition: all .5s;
+    }
+
+    /*home section*/
+    main > section:first-child > section:first-child > div:first-child {
+        width: 888px;
+        gap: 16px;
+        transition: all 2s;
+    }
+
+    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
+        width: 360px;
+        height: 397px;
+        transition: all 2s;
+    }
+
+    main > section:first-child > section:first-child > div:first-child {
+        width: 756px;
+        flex-direction: column-reverse;
+        margin-top: 0;
+        gap: 0;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+        margin-bottom: 44px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav {
+        justify-content: center;
+        transition: all 2s;
+    }
+}
+
+@media (max-width: 845px) {
+    /*about section*/
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > p:nth-child(2), p:nth-child(3) {
+        font-size: 14px;
+        transition: all .5s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column1 > p {
+        font-size: 14px;
+        transition: all .5s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 > p {
+        font-size: 14px;
+        transition: all .5s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) {
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: all .5s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child {
+        width: 177px;
+        height: 34px;
+        font-size: 14px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child > div {
+        width: 29px;
+        height: 30px;
+        left: 145px;
+        top: 2px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child > div:first-child > i:first-child {
+        left: 27%;
+        top: 27%;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) {
+        margin-top: 60px;
+        transition: all .5s;
+    }
+
+    main > section:nth-child(2) > div:nth-child(2) > img:first-child {
+        width: 127px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(2) > div:nth-child(7) > img:first-child {
+        width: 127px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > div:first-child > img:first-child {
+        width: 289px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > h2:first-child {
+        font-size: 33px;
+        line-height: 41px;
+        margin-bottom: 18px;
+        transition: all 2s;
+    }
+
+    #aboutWave {
+        width: 269px;
+        top: 537px;
+        transition: all 2s;
+    }
+
+    #aboutWave {
+        width: 269px;
+        height: 64px;
+        top: 537px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child {
+        gap: 77px;
+        transition: all .5s;
+    }
+
+    #aboutLineCircle {
+        width: 86px;
+        height: 111px;
+        bottom: 31px;
+        transition: all 2s;
+    }
+
+    /*services section*/
+    main > section:nth-child(3) > section:nth-child(2) > section > div {
+        width: 99%;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(3) > div:nth-child(3) {
+        top: 2346px;
+        transition: all 2s;
+    }
+
+    /*project section*/
+    .card {
+        width: 592px;
+    }
+
+    .card-thumb img {
+        height: 50%;
+    }
+
+    .card_detail {
+        height: 250px;
+    }
+}
+
+@media (max-width: 882px) {
+    /*contact section*/
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div {
+        width: 564px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) {
+        margin-top: 45px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+        font-size: 1.3em;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    /*about section*/
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) {
+        width: 88vw;
+        transition: all 2s;
+    }
+
+    /*skills section*/
+    #skillHeadings {
+        gap: 170px;
+        transition: all .5s;
+    }
+
+    #btnEducation {
+        font-size: 17px;
+        transition: all .5s;
+    }
+
+    #btnWork {
+        font-size: 17px;
+        transition: all .5s;
+    }
+
+    #languages {
+        font-size: 17px;
+        transition: all .5s;
+    }
+
+    /*gallery section*/
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:first-child {
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(2) {
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(3) {
+        grid-column: 3/5;
+        grid-row: 1/4;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(4) {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(5) {
+        display: none;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(6) {
+        display: none;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(7) {
+        display: none;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(8) {
+        display: none;
+    }
+}
+
+@media (max-width: 724px) {
+    /*project section*/
+    .card {
+        width: 359px;
+    }
+
+    .card_detail {
+        height: 228px;
+    }
+
+    .card_detail::before {
+        top: -168px;
+    }
+
+    .card_detail h4 {
+        margin: 15px 40px 15px;
+        font-size: 21px;
+    }
+
+    .card_detail p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 622px) {
+    /*footer section*/
+    footer > section:first-child > div:first-child {
+        flex-direction: column-reverse;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(3) > ul:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+    }
+
+    footer > section:first-child > div:first-child > h2:nth-child(4) {
+        display: inline-block;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 40px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    footer > section:first-child > div:first-child > h2:nth-child(4) > span {
+        display: inline-block;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 40px;
+        color: #FFA500;
+    }
+
+    footer > section:first-child > div:first-child > h2:first-child {
+        display: none;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    footer > section:first-child > div:first-child > nav:nth-child(3) {
+        margin-bottom: 5px;
+    }
+
+    /*contact section*/
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div {
+        width: max-content;
+        display: flex;
+        row-gap: 23px;
+        flex-direction: column;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+        font-size: 22px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) {
+        margin-top: 32px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
+        margin-bottom: 20px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) {
+        margin-top: 35px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:first-child {
+        flex-direction: column;
+        gap: 29px;
+        transition: all 2s;
+    }
+
+    .contactDetails > input {
+        width: 81vw;
+        border-radius: 23px;
+        font-size: 14px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(2) > input {
+        border-radius: 23px;
+        font-size: 14px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form:first-child > fieldset > div:nth-child(3) > textarea {
+        border-radius: 23px;
+        font-size: 14px;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset {
+        align-items: normal;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
+        gap: 20px;
+        width: 137px;
+        height: 37px;
+        font-size: 12px;
+        padding-top: 13px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div {
+        margin-top: -9px;
+        width: 30px;
+        height: 30px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div > i {
+        left: 31.5%;
+        top: 29.19%;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
+        margin-bottom: 16px;
+    }
+
+    /*about section*/
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child {
+        gap: 58px;
+    }
+
+    main > section:nth-child(2) > div:nth-child(2) {
+        left: 53px;
+        top: 202px;
+    }
+
+    main > section:nth-child(2) > div:nth-child(2) > img:first-child {
+        width: 99px;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > div:first-child > img:first-child {
+        width: 232px;
+    }
+
+    #aboutWave {
+        width: 207px;
+        height: 74px;
+        left: 0px;
+        top: 478px;
+    }
+
+    #aboutCube2 {
+        right: 50px;
+        top: 387px;
+    }
+
+    main > section:nth-child(2) > div:nth-child(7) > img:first-child {
+        width: 99px;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > h2:first-child {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 608px) {
+    /*about section*/
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 {
+        display: none;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) {
+        width: 195px;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > div:first-child > p:nth-child(6) {
+        display: block;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > div:first-child > p:nth-child(7) {
+        display: block;
+    }
+}
+
+@media (max-width: 567px) {
+    /*skills section*/
+    #skillHeadings {
+        gap: 128px;
+    }
+}
+
+@media (max-width: 425px) {
+    /*service section*/
+    main > section:nth-child(3) > section:nth-child(2) > section > div {
+        width: 274px;
+        height: 274px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(2) > section > div > div:first-child > i {
+        font-size: 1.90em;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(3) > section:nth-child(2) > section > div > h4:nth-child(2) {
+        top: 96px;
+        margin: 0 0 10px;
+        font-family: 'Inter';
+        font-size: 20px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(2) > section > div > p:nth-child(3) {
+        top: 132px;
+        width: 223px;
+        font-size: 14px;
+    }
+
+    main > section:nth-child(3) > div:nth-child(3) {
+        top: 2082px;
+        right: 12px;
+    }
+
+    main > section:nth-child(3) > section:first-child > h1 {
+        font-size: 43px;
+    }
+
+    main > section:nth-child(3) > section:first-child > h4 {
+        font-size: 21px;
+    }
+
+    /*about section*/
+    #aboutWave {
+        display: none;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child {
+        gap: 30px;
+    }
+
+    main > section:nth-child(2) > section:first-child > h1 {
+        font-size: 43px;
+    }
+
+    main > section:nth-child(2) > section:first-child > h4 {
+        font-size: 21px;
+    }
+
+    /*home section*/
+    main > section:first-child > section:first-child > div:first-child {
+        flex-direction: column-reverse;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 0;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+        margin-bottom: 44px;
+        align-items: center;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+        font-size: 20px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
+        font-size: 29px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
+        font-size: 29px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
+        font-size: 35px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
+        font-size: 35px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) {
+        width: 127px;
+        height: 35px;
+        font-size: 15px;
+        margin-bottom: 33px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div {
+        top: 3px;
+        left: 94px;
+        height: 29px;
+        width: 29px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div:first-child > i:first-child {
+        font-size: 13px;
+        left: 31%;
+        top: 31%;
+    }
+
+    main > section:first-child > section:first-child > div:first-child > aside:first-child > section:nth-child(5) > h3:first-child {
+        display: none;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+        margin-bottom: 14px;
+        margin-top: -30px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
+        width: 36px;
+        height: 35px;
+        background: rgba(236, 240, 243, 50.85);
+        box-shadow: -23px -23px 45px #ffffff, 5px 1px 50px rgb(13 39 80);
+        border-radius: 15px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div > a > i {
+        left: 26%;
+        top: 26%;
+        font-size: 1.2em;
+        transition: all 2s;
+    }
+
+    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
+        width: 317px;
+        height: 382px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > a > i {
+        font-size: 1.2em;
+    }
+
+    /*project section*/
+    main > section:nth-child(6) > section:first-child > h4 {
+        font-size: 21px;
+    }
+
+    main > section:nth-child(6) > section:first-child > h1 {
+        font-size: 43px;
+    }
+
+    .card {
+        width: 272px;
+    }
+
+    .card_detail {
+        height: 238px;
+    }
+
+    .card_detail::before {
+        top: -143px;
+    }
+
+    .card_detail h4 {
+        margin: 0px 5px 17px;
+        font-size: 17px;
+    }
+
+    .card_detail p {
+        font-size: 12px;
+        margin: 0px 20px 20px;
+    }
+
+    .card_detail a {
+        font-size: 20px;
+    }
+
+    .card-thumb span {
+        width: 60px;
+        height: 60px;
+        font-size: 21px;
+    }
+
+    /*contact section*/
+    main > section:nth-child(7) > section:first-child > h4 {
+        font-size: 21px;
+    }
+
+    main > section:nth-child(7) > section:first-child > h1 {
+        font-size: 43px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:first-child > h3:first-child {
+        font-size: 22px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:first-child > h4:nth-child(2) {
+        font-size: 17px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h3:first-child {
+        font-size: 22px;
+    }
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h4:nth-child(2) {
+        font-size: 17px;
+    }
+
+    /*gallery section*/
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    main > section:nth-child(5) > section:first-child > h1 {
+        font-size: 43px;
+    }
+
+    main > section:nth-child(5) > section:first-child > h4 {
+        font-size: 21px;
+    }
+
+    /*skills section*/
+    main > section:nth-child(4) > section:first-child > h1 {
+        font-size: 43px;
+    }
+
+    main > section:nth-child(4) > section:first-child > h4 {
+        font-size: 21px;
+    }
+
+    #skillHeadings {
+        gap: 70px;
+    }
+
+    /*footer section*/
+    footer > section:nth-child(3) > small:first-child {
+        font-size: 10px;
+        transition: all .5s;
+    }
+
+    /*client section*/
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:first-child {
+        width: 157px;
+        height: 165px;
+        border: 9px solid #000000;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > img:nth-child(2) {
+        bottom: 148px;
+        z-index: 2;
+        width: 123px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) {
+        width: 265px;
+        height: 255px;
+        margin-top: -216px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) > div {
+        margin-top: 59px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) > div > h3:first-child {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) > div > p:nth-child(2) {
+        width: 177px;
+        font-size: 13px;
+        margin-bottom: 12px;
+        margin-top: 9px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(3) > div > div:nth-child(3) > img {
+        height: 16px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(4) {
+        bottom: 149px;
+        left: 99px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(6) > div:first-child > div > div:nth-child(4) > i {
+        font-size: 1.3em;
+    }
+
+    main > section:nth-child(6) > section:nth-child(5) > h4 {
+        font-size: 21px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(5) > h1 {
+        font-size: 43px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(5) > div:nth-child(3) {
+        margin-right: 68px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(5) > div:nth-child(3) > div:first-child {
+        height: 6px;
+    }
+
+    main > section:nth-child(6) > section:nth-child(5) > div:nth-child(3) > div:nth-child(2) {
+        height: 6px;
+    }
+}
+
+@media (max-width: 375px) {
+    /*skills section*/
+    #skillHeadings {
+        gap: 62px;
+    }
+
+    /*gallery section*/
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:first-child {
+        grid-row: 1/2;
+        grid-column: 1/5;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(2) {
+        display: none;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(3) {
+        display: none;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(4) {
+        display: none;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(5) {
+        display: block;
+        grid-row: 2/3;
+        grid-column: 1/5;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(6) {
+        display: none;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(7) {
+        display: block;
+        grid-row: 3/4;
+        grid-column: 1/5;
+    }
+
+    main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(8) {
+        display: none;
+    }
+    /*home section*/
+    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
+        width: 300px;
+        height: 382px;
+    }
+}
+
+@media (max-width: 320px) {
+    /*skills section*/
+    #skillHeadings {
+        gap: 54px;
+    }
+
+    #btnEducation {
+        font-size: 14px;
+    }
+
+    #btnWork {
+        font-size: 14px;
+    }
+}
