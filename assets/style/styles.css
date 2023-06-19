@@ -124,7 +124,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
     display: flex;
     flex-direction: column;
 }
-
+/* Hello */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
     font-family: Poppins;
     font-size: 31px;
@@ -132,27 +132,34 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
     margin-bottom: 0;
     color: #000000;
 }
-
-
-main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
-    font-family: "Comic Sans MS";
-    font-size: 55px;
-    color: #0ca205;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0,255);
+/* web designer...*/
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #909597;
 }
-
+/* i m */
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
+    font-family: Poppins;
+    font-size: 30px;
+    color: #000000;
+}
+/* s */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
-    font-family: Poppins ;
-    font-size: 50px;
-    color: #8a0583;
+    font-family: "Poppins" ;
+    font-size: 75px;
+    color: #7ecb79;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.1);
 }
-
+/* rest of the name */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
-    font-family: Poppins;
-    font-size: 50px;
-    color: #FFA500;
+    font-family: "Comic Sans MS";
+    font-size: 65px;
+    color: #8a0583;
 }
 
 .typed-cursor {
@@ -165,16 +172,16 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
 
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) {
     position: relative;
-    width: 206px;
-    height: 68px;
-    background-color: #FFA500;
-    border-radius: 46px;
+    width: 198px;
+    height: 50px;
+    background-color: #7ecb79;
+    border-radius: 40px;
     box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.36);
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     text-align: left;
     padding-left: 25px;
-    font-size: 25px;
+    font-size: 20px;
     color: #FFFFFF;
     cursor: pointer;
     border-width: 0;
@@ -182,10 +189,10 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
 
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div {
     position: absolute;
-    top: 5px;
-    left: 141px;
-    height: 58px;
-    width: 60px;
+    top: 1px;
+    left: 148px;
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
     background: #F9FAFB;
     box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
@@ -199,7 +206,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
     left: 29%;
     top: 29%;
     bottom: 41.09%;
-    color: #FFA500;
+    color: #8a0583;
     cursor: pointer;
 }
 
@@ -315,5 +322,3 @@ main > section:first-child > section:first-child > div:first-child {
     padding-left: 35px;
     transition: all 2s;
 }
-
-
