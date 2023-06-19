@@ -24,6 +24,15 @@
 ::-webkit-scrollbar-thumb {
     background: #0ca205;
 }
+header {
+    position: fixed;
+    background: #ECF0F3;
+    width: 100%;
+    top: 0;
+    height: 73px;
+    z-index: 999;
+}
+
 #blog{
     position: relative;
     left: 20px;
@@ -111,7 +120,7 @@ main {
 
 main > section:nth-child(1) {
     position: relative;
-    background: #FFFFFF;
+    background: #eeeeee;
     width: 100%;
 }
 
@@ -186,7 +195,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
     cursor: pointer;
     border-width: 0;
 }
-
+/* button arrow */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div {
     position: absolute;
     top: 1px;
@@ -215,8 +224,8 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
 */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > h3 {
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    color: #909597;
+    font-size: 15px;
+    color: #000000;
 }
 
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav {
@@ -225,9 +234,9 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
 }
 
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
-    width: 67px;
-    height: 67px;
-    background: rgba(236, 240, 243, 0.85);
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 240, 243, 0.85);
     box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
     border-radius: 15px;
 }
@@ -251,7 +260,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
     transition: all 0.5s ease;
     -webkit-transform: scale(1.10);
     transform: scale(1.10);
-    color: #FFA500 !important;
+    color: #8a0583 !important;
 }
 
 /**
