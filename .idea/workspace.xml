@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -134,6 +136,12 @@
       <workItem from="1686236206737" duration="20762000" />
       <workItem from="1686323808669" duration="4401000" />
       <workItem from="1686363667897" duration="19178000" />
+      <workItem from="1686663164404" duration="692000" />
+      <workItem from="1686663946691" duration="623000" />
+      <workItem from="1686750403629" duration="758000" />
+      <workItem from="1686817825982" duration="1431000" />
+      <workItem from="1686882119846" duration="668000" />
+      <workItem from="1686972760279" duration="6376000" />
     </task>
     <servers />
   </component>
@@ -161,7 +169,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
           <line>177</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
