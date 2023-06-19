@@ -14,23 +14,13 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-.HomeShape1{
-    box-sizing: border-box;
-    border-radius: 20px;
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    left: -42px;
-    top: -37px;
-    background: white;
-    border: 20px solid rgba(12, 203, 121, 0.74);
-}
+
 #blog{
     position: relative;
-    left: 110px;
+    left: 20px;
     top: 10px;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "ubuntu", SansSerif;
     font-style: normal;
     font-weight: 600;
     font-size: 38px;
@@ -43,5 +33,59 @@
     font-size: 38px;
     line-height: 46px;
 
-    color: #FFA500;
+    color: rgba(12, 162, 5, 0.74);
+}
+/* nav bar*/
+.menu{
+    position: absolute;
+    right: 110px;
+    top: 0;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: "Century Gothic" !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu ul li a {
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.3s all;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: #7ecb79 ;
+}
+
+.menu ul li #active {
+    color: rgba(126, 203, 121, 0.74);
+}
+
+.hover-line::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 6px;
+    background-color: #8a0583;
+    border-radius: 26%;
+    transition: width .3s;
+}
+.hover-line:hover::after {
+    width: 40%;
+    transition: width .3s;
+}
+
+.active-hover-line::after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 6px;
+    background-color: #8a0583;
+    border-radius: 26%;
+    transition: width .3s;
 }
