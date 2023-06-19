@@ -130,27 +130,21 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
     font-size: 31px;
     margin-top: 0;
     margin-bottom: 0;
-    color: #FFA500;
+    color: #000000;
 }
 
-main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
-    font-family: Poppins;
-    font-size: 55px;
-    margin-top: 16px;
-    margin-bottom: 0;
-    color: #FFA500;
-}
 
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
-    font-family: Poppins;
+    font-family: "Comic Sans MS";
     font-size: 55px;
-    color: #000000;
+    color: #0ca205;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0,255);
 }
 
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
     font-family: Poppins ;
     font-size: 50px;
-    color: #000000;
+    color: #8a0583;
     margin-top: 16px;
     margin-bottom: 16px;
 }

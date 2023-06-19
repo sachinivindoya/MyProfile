@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -67,6 +68,7 @@
       <recent name="D:\GDSE63\MyProfile\assets\images\assignmentImages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GDSE63\MyProfile\assets" />
       <recent name="D:\GDSE63\MyProfile\assessts\images" />
       <recent name="D:\GDSE63\MyProfile\pages" />
     </key>
@@ -142,7 +144,7 @@
       <workItem from="1686817825982" duration="1431000" />
       <workItem from="1686882119846" duration="668000" />
       <workItem from="1686972760279" duration="12145000" />
-      <workItem from="1687149078994" duration="9168000" />
+      <workItem from="1687149078994" duration="10721000" />
     </task>
     <servers />
   </component>
