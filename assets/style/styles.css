@@ -14,7 +14,16 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+/* scroll bar */
+::-webkit-scrollbar {
+    display: none;
+    width: 6px;
+    background: #3f3838;
+}
 
+::-webkit-scrollbar-thumb {
+    background: #0ca205;
+}
 #blog{
     position: relative;
     left: 20px;
@@ -70,7 +79,7 @@
     content: '';
     display: block;
     width: 0%;
-    height: 6px;
+    height: 3px;
     background-color: #8a0583;
     border-radius: 26%;
     transition: width .3s;
@@ -84,8 +93,75 @@
     content: '';
     display: block;
     width: 40%;
-    height: 6px;
+    height: 3px;
     background-color: #8a0583;
     border-radius: 26%;
     transition: width .3s;
 }
+
+
+/* main section */
+main {
+    position: relative;
+    margin-top: 73px;
+    width: 100%;
+}
+
+/*  home section */
+
+main > section:nth-child(1) {
+    position: relative;
+    background: #e4e3e2;
+    width: 100%;
+}
+
+/**
+* description section
+*/
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+    font-family: Poppins;
+    font-size: 31px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #8a0583;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
+    font-family: Poppins;
+    font-size: 55px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #FFA500;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
+    font-family: Poppins;
+    font-size: 55px;
+    color: #000000;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
+    font-family: Poppins ;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
+    font-family: Poppins;
+    font-size: 50px;
+    color: #FFA500;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+
