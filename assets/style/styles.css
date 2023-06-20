@@ -448,11 +448,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     margin-bottom: 24px;
     color: #8a0583;
 }
-
-/**
-*button */
-
-/**
+/*
 * introducing description in about section
 */
 main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > p:nth-child(2), p:nth-child(3) {
