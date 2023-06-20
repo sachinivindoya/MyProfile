@@ -507,7 +507,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
 
-body {
+#education {
     --color: rgba(30, 30, 30);
     --bgColor: rgba(245, 245, 245);
     min-height: 100vh;
@@ -519,12 +519,23 @@ body {
     color: var(--color);
     background: var(--bgColor);
 }
+.title{
+    text-align: center;
+    color: #000000;
 
-.eduTitle {
-    height: 40px;
-    background-color: #7ecb79;
-    opacity: 75%;
 }
+.descr{
+    text-align: center;
+    color: #909597;
+}
+.imgScl{
+    text-align: center;
+}
+/*.eduTitle {
+    height: 65px;
+    background-color: mediumpurple;
+    opacity: 75%;
+}*/
 .eduTitle h1{
     text-align: center;
 }
@@ -655,4 +666,46 @@ body {
 .eduMenu li .descr::before {
     z-index: -1;
     bottom: 0.25rem;
+}
+/* responsive */
+
+@media (min-width: 40rem) {
+    .eduMenu {
+        grid-template-columns: 1fr var(--line-w) 1fr;
+    }
+    .eduMenu::before {
+        grid-column: 2;
+    }
+    .eduMenu li:nth-child(odd) {
+        grid-column: 1;
+    }
+    .eduMenu li:nth-child(even) {
+        grid-column: 3;
+    }
+
+    /* start second card */
+    .eduMenu li:nth-child(2) {
+        grid-row: 2/4;
+    }
+
+    .eduMenu li:nth-child(odd) .date::before {
+        clip-path: polygon(0 0, 100% 0, 100% 100%);
+        left: 0;
+    }
+
+    .eduMenu li:nth-child(odd) .date::after {
+        transform: translate(-50%, -50%);
+        left: calc(100% + var(--col-gap) + var(--line-w) / 2);
+    }
+    .eduMenu li:nth-child(odd) .date {
+        border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+    }
+}
+
+.credits {
+    margin-top: 1rem;
+    text-align: right;
+}
+.credits a {
+    color: var(--color);
 }
