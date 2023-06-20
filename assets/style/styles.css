@@ -520,7 +520,12 @@ body {
     background: var(--bgColor);
 }
 
-h1 {
+.eduTitle {
+    height: 40px;
+    background-color: #7ecb79;
+    opacity: 75%;
+}
+.eduTitle h1{
     text-align: center;
 }
 
