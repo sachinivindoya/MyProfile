@@ -387,8 +387,7 @@ main > section:first-child > section:first-child > div:first-child {
     }
 }
 
-/*  about section
-   ========================================================================== */
+/*  about section */
 
 main > section:nth-child(2) {
     position: relative;
@@ -406,15 +405,6 @@ main > section:nth-child(2) > section:first-child {
     padding-top: 68px;
 }
 
-main > section:nth-child(2) > section:first-child > h4 {
-    font-family: 'Lato', sans-serif;
-    font-weight: initial;
-    font-size: 25px;
-    color: #FFA500 !important;
-    text-align: center;
-    padding-top: 12px;
-    margin: 0;
-}
 
 main > section:nth-child(2) > section:first-child > h1 {
     font-family: Ubuntu, sans-serif;
@@ -437,30 +427,6 @@ main > section:nth-child(2) > section:first-child > h1::before {
     border-radius: 2px;
 }
 
-main > section:nth-child(2) > section:first-child > h1::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 6px;
-    background: #FFA500;
-    bottom: 0;
-    left: calc(50% - 20px);
-    border-radius: 3px;
-}
-
-
-/**
-* first cube shape in about section
-*/
-main > section:nth-child(2) > div:nth-child(2) {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 120px;
-    top: 173px;
-}
-
 
 /**
 * about description in about section
@@ -480,7 +446,11 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     line-height: 52px;
     margin-top: 0;
     margin-bottom: 24px;
+    color: #8a0583;
 }
+
+/**
+*button */
 
 /**
 * introducing description in about section
@@ -489,32 +459,8 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     line-height: 24px;
-    color: #9494A1 !important;
+    color: #50484f !important;
     margin-top: 0;
-}
-
-/**
-* wave shape in about section
-*/
-#aboutWave {
-    position: absolute;
-    width: 352px;
-    height: 74px;
-    fill: none;
-    left: 0px;
-    top: 730px;
-}
-
-/**
-* line circle shape in about section
-*/
-#aboutLineCircle {
-    position: absolute;
-    width: 114px;
-    height: 157px;
-    fill: none;
-    right: 0;
-    bottom: 25px;
 }
 
 /**
@@ -527,103 +473,12 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     flex-wrap: wrap;
 }
 
-/**
-* my details column 1 titles customized about section
-*/
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column1 > p {
-    font-family: Poppins;
-    font-size: 17px;
-    color: var(--text-black-900) !important;
-}
-
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column1 > p > i:first-child {
-    color: #FFA500;
-    font-size: 1em;
-    margin-right: 10px;
-}
-
-/**
-* my details column 1 span customized about section
-*/
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column1 > p > span {
-    color: var(--text-black-700) !important;
-}
-
-/**
-* my details column 2 titles customized about section
-*/
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 > p {
-    font-family: Poppins;
-    font-size: 17px;
-    color: var(--text-black-900) !important;
-}
-
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 > p > i:first-child {
-    color: #FFA500;
-    font-size: 1em;
-    margin-right: 10px;
-}
-
-/**
-* introduced my details column 2 position about section
-*/
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 {
-    position: absolute;
-    right: 0;
-}
-
-/**
-* my details column 2 span customized about section
-*/
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(4) > #column2 > p > span {
-    color: var(--text-black-700) !important;
-}
-
 main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) {
     position: relative;
     top: 16px;
     margin-bottom: 65px;
 }
 
-/**
-* description section button position about section
-*/
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child {
-    width: 209px;
-    height: 46px;
-    background-color: #464444;
-    box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.36);
-    border-radius: 25px;
-    font-family: 'Ubuntu', SansSerif;
-    text-align: left;
-    padding-left: 25px;
-    color: #FFFFFF;
-    cursor: pointer;
-    border-width: 0;
-}
-
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child > div {
-    position: absolute;
-    width: 43px;
-    height: 42px;
-    left: 163px;
-    top: 2px;
-    border-radius: 100%;
-    background: #F9FAFB;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
-    cursor: pointer;
-}
-
-main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth-child(2) > div:nth-child(5) > button:first-child > div:first-child > i:first-child {
-    height: 27px;
-    width: 27px;
-    position: absolute;
-    left: 32%;
-    top: 30%;
-    bottom: 41.09%;
-    color: #FFA500;
-    cursor: pointer;
-}
 
 main > section:nth-child(2) > section:nth-child(3) {
     position: relative;
