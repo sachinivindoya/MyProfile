@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/image/skills/Javascript.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/skills/Python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/skills/bootstrap .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/skills/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/skills/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/skills/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/skills/mysql.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image/skills" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -59,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GDSE63\MyProfile\assets\image\skills" />
       <recent name="D:\GDSE63\MyProfile\assets\image" />
       <recent name="D:\GDSE63\MyProfile\assets" />
       <recent name="D:\GDSE63\MyProfile\assets\img" />
       <recent name="D:\GDSE63\MyProfile" />
-      <recent name="D:\GDSE63\MyProfile\assets\images\assignmentImages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDSE63\MyProfile\assets" />
@@ -144,7 +152,7 @@
       <workItem from="1686972760279" duration="12145000" />
       <workItem from="1687149078994" duration="27848000" />
       <workItem from="1687235942825" duration="9216000" />
-      <workItem from="1687313615544" duration="1550000" />
+      <workItem from="1687313615544" duration="3538000" />
     </task>
     <servers />
   </component>
