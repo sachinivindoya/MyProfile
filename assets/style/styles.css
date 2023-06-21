@@ -709,3 +709,5 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 .credits a {
     color: var(--color);
 }
+
+/* skill */
