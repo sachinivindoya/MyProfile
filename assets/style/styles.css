@@ -734,6 +734,6 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     margin-left: 25%;
 }
 
-.skillLogo img{
+.SkillImg{
     padding: 10px;
 }
