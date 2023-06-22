@@ -14,6 +14,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 
+
+
 }
 /* scroll bar */
 ::-webkit-scrollbar {
@@ -295,7 +297,7 @@ main > section:first-child > section > div:first-child > div:nth-child(3) {
 
 /* home image */
 main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
-    background: url(../image/gif.gif);
+    background: url(../image/1Kte.gif);
     width: 400px;
     height: 400px;
     background-size: cover;
