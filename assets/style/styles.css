@@ -738,8 +738,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     padding: 10px;
 }
 
-/* gallery */
-
+/*  gallery section */
 
 main > section:nth-child(5) {
     position: relative;
@@ -747,11 +746,16 @@ main > section:nth-child(5) {
     width: 100%;
     background: #ECF0F3;;
 }
+
+/**
+* title in gallery section
+*/
 main > section:nth-child(5) > section:first-child {
     position: relative;
     text-align: center;
     padding-top: 0;
 }
+
 main > section:nth-child(5) > section:first-child > h1 {
     font-family: Ubuntu, sans-serif;
     font-size: 50px;
@@ -760,6 +764,10 @@ main > section:nth-child(5) > section:first-child > h1 {
     margin-bottom: 7px;
     padding-bottom: 18px;
 }
+
+/**
+* title underline in gallery section
+*/
 main > section:nth-child(5) > section:first-child > h1::before {
     content: "";
     position: absolute;
@@ -771,6 +779,8 @@ main > section:nth-child(5) > section:first-child > h1::before {
     left: calc(50% - 60px);
     border-radius: 2px;
 }
+
+
 /**
 * added section positions gallery section
 */
@@ -811,6 +821,77 @@ main > section:nth-child(5) > section:nth-child(2) > section:first-child > div {
 main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:first-child {
     grid-row: 1/2;
     grid-column: 1/3;
-    background: url("../img/gallery/img_1.jpg") center;
+    background: url("../image/gallery/img_1.png") center;
     background-size: cover;
+}
+
+/**
+ * Customized 02 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(2) {
+    background: url("../image/gallery/img_2.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 03 Image grid-column and grid-row
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(3) {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    background: url("../image/gallery/img_4.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 04 Image
+*/
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(4) {
+    background: url("../image/gallery/img_3.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 05 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(5) {
+    background: url("../image/gallery/img_5.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 06 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(6) {
+    background: url("../image/gallery/img_6.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 07 Image
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(7) {
+    background: url("../image/gallery/img_7.jpeg") center;
+    background-size: cover;
+}
+
+/**
+ * Customized 08 Image grid-column and grid-row
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:nth-child(8) {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background: url("../image/gallery/img_8.jpg") center;
+    background-size: cover;
+}
+
+/**
+ * Added Hover Effects
+ */
+main > section:nth-child(5) > section:nth-child(2) > section:first-child > div:hover {
+    transition: all 0.5s ease;
+    -webkit-transform: scale(0.96);
+    transform: scale(0.96);
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.68);
+    cursor: pointer;
 }
