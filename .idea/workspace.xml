@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery/img_8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/g1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/g2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/g3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/g4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/g5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image/gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image/project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -73,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GDSE63\MyProfile\assets\image\project" />
       <recent name="D:\GDSE63\MyProfile\assets\image\gallery" />
       <recent name="D:\GDSE63\MyProfile\assets\image" />
       <recent name="D:\GDSE63\MyProfile\assets\image\skills" />
       <recent name="D:\GDSE63\MyProfile\assets" />
-      <recent name="D:\GDSE63\MyProfile\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDSE63\MyProfile\assets" />
@@ -159,7 +145,8 @@
       <workItem from="1687149078994" duration="27848000" />
       <workItem from="1687235942825" duration="9216000" />
       <workItem from="1687313615544" duration="10054000" />
-      <workItem from="1687403823920" duration="320000" />
+      <workItem from="1687403823920" duration="635000" />
+      <workItem from="1687405341059" duration="2160000" />
     </task>
     <servers />
   </component>
