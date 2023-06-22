@@ -5,7 +5,6 @@
       <change afterPath="$PROJECT_DIR$/pages/assets/style/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Assignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/assets/style/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assets/style/assignment.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <workItem from="1687403823920" duration="635000" />
       <workItem from="1687405341059" duration="2469000" />
       <workItem from="1687412340114" duration="731000" />
-      <workItem from="1687413115421" duration="18199000" />
+      <workItem from="1687413115421" duration="18628000" />
     </task>
     <servers />
   </component>
