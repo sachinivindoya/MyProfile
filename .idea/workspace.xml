@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/assignment5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Assignment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/assets/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -58,8 +60,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GDSE63\MyProfile\pages\assets\style" />
       <recent name="D:\GDSE63\MyProfile\pages\assets\images" />
+      <recent name="D:\GDSE63\MyProfile\pages\assets\style" />
       <recent name="D:\GDSE63\MyProfile\assets\image" />
       <recent name="D:\GDSE63\MyProfile\assets\image\project" />
       <recent name="D:\GDSE63\MyProfile\assets\image\gallery" />
@@ -147,7 +149,7 @@
       <workItem from="1687403823920" duration="635000" />
       <workItem from="1687405341059" duration="2469000" />
       <workItem from="1687412340114" duration="731000" />
-      <workItem from="1687413115421" duration="20489000" />
+      <workItem from="1687413115421" duration="21954000" />
     </task>
     <servers />
   </component>
