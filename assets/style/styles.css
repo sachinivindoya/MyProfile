@@ -204,8 +204,8 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
     height: 50px;
     width: 50px;
     border-radius: 100%;
-    background: #F9FAFB;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    background: #232732;
+    box-shadow: inset -13px -13px 16px #232732, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
     cursor: pointer;
 }
 
@@ -237,8 +237,8 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
     width: 60px;
     height: 60px;
-    background: rgba(255, 240, 243, 0.85);
-    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    background: #232732;
+    box-shadow: -23px -23px 45px #232732, 28px 28px 50px rgba(13, 39, 80, 0.16);
     border-radius: 15px;
 }
 /* button background */
@@ -262,34 +262,6 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
     -webkit-transform: scale(1.10);
     transform: scale(1.10);
     color: #8a0583 !important;
-}
-
-/**
-* first shape in home section
-*/
-main > section:first-child > section > div:first-child > div:first-child {
-    box-sizing: border-box;
-    position: absolute;
-    width: 34px;
-    height: 34px;
-    left: 138px;
-    top: 92px;
-    border: 7px solid rgba(255, 165, 0, 0.52);
-    transform: matrix(0.6, 0.8, -0.79, 0.6, 0, 0);
-}
-
-/**
-* second shape in home section
-*/
-main > section:first-child > section > div:first-child > div:nth-child(3) {
-    box-sizing: border-box;
-    border-radius: 100%;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 722px;
-    top: 160px;
-    border: 6px solid rgba(255, 165, 0, 0.52);
 }
 
 
@@ -915,6 +887,7 @@ main > section:nth-child(5) > section:first-child > h1 {
     margin-top: 5px;
     margin-bottom: 7px;
     padding-bottom: 18px;
+    color: #FFFFFF;
 }
 
 /**
