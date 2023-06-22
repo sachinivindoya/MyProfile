@@ -737,10 +737,159 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 .SkillImg{
     padding: 10px;
 }
-
+/*----------------------------------------------------------------------------------*/
 /* project section */
 
+#projectsSectionMainParent {
 
+    background-color: #25252f;
+    padding: 3rem 3rem 5rem 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#projectsSectionMainParent #mainHeading {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#projectsSectionMainParent #subHeading {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    line-height: 0.5;
+    font-size: 0.6rem;
+}
+
+#categoryParent a {
+    color: #3d3d3d;
+    margin: 2rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#categoryParent a:hover,
+#categoryParent a:focus,
+#categoryParent a.active {
+    color: white;
+    transition: all 400ms;
+}
+
+#projectItemsContainer {
+    margin: auto 6rem;
+    width: 85%;
+    background-color: #232732;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+#projectItemsContainer::-webkit-scrollbar {
+    width: 0px;
+}
+
+.projectItem {
+    width: 300px;
+    height: 200px;
+    margin-right: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.iconsParent {
+    width: 100%;
+    overflow: hidden;
+}
+
+.iconsParent img {
+    width: 120%;
+    transform: scale(1.2);
+}
+
+.desc {
+    background-color: rgba(61, 61, 61, 0.9);
+    z-index: 2;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+}
+
+.desc:hover {
+    opacity: 1;
+    transition: all 300ms;
+}
+
+.desc>span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.desc p{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+}
+
+.desc hr{
+    opacity: 0.5;
+    background-color: white;
+    height: 1px;
+    width: 50%;
+    margin: 0.1rem auto !important;
+}
+
+.desc img {
+    width: 40px;
+}
+
+.desc img:hover,
+.desc img:focus {
+    transform: rotateZ(360deg);
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+#projectItemControllers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slideButtons {
+    width: 40px;
+    margin: 0.5rem;
+    z-index: 12;
+    cursor: pointer;
+}
+
+#previousButton {
+    transform: rotate(180deg);
+}
+
+.slideButtons:hover {
+    filter: sepia(79%) saturate(658%) hue-rotate(100deg) brightness(88%)
+    contrast(95%);
+}
+/*------------------------------------------------------------------------*/
 /*  gallery section */
 
 main > section:nth-child(5) {

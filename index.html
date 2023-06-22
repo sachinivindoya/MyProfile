@@ -159,47 +159,39 @@
         </ul>
     </section>
 
-    <!-- skills-->
-
-    <section>
-    <div class="skillTitle">
-        <h1> Skills</h1>
-    </div>
-        <div class="SkillLogo">
-            <div class="SkillImg"> <img src="assets/image/skills/html.png"></div>
-            <div class="SkillImg"> <img src="assets/image/skills/css.png"></div>
-            <div class="SkillImg"> <img src="assets/image/skills/Javascript.png"></div>
-            <div class="SkillImg"><img src="assets/image/skills/mysql.png"></div>
-            <div class="SkillImg"> <img src="assets/image/skills/java.png"></div>
-            <div class="SkillImg"><img src="assets/image/skills/Python.png"></div>
-        </div>
-    </section>
-
-    <!-- projects -->
+    <!-- projects  -->
     <section id="projectsSectionMainParent">
-        <span id="mainHeading">PROJECTS DONE BY ME</span>
-        <span id="subHeading">Hover over project icon to see details</span>
+        <span id="mainHeading">
+            PROJECTS DONE BY ME
+        </span>
+        <span id="subHeading">
+            Hover over project icon to see details
+        </span>
+        <div id="categoryParent">
+            <a id="typeAll" class onclick="typeAllClicked()">All</a>
+            <a id="typeWeb" class onclick="typeWebClicked()">Web</a>
+            <a id="typeStandalone" class onclick="typeStandaloneClicked()">Standalone</a>
+            <a id="typeAssignments" class onclick="typeAssignmentsClicked()">Assignments </a>
+        </div>
         <div id="projectItemsContainer" class="reveal active">
             <div class="projectItem">
                 <div class="iconsParent">
                     <img src="assets/image/project/chat.JPG">
-                    <div class="description">
-                        <span> Group Chatting Application</span>
-                        <hr>
-                        <p> This is INP project using java socket programming and java fx.</p>
-                        <a href="https://github.com/sachinivindoya/groupChat" target="_blank"></a>
-                        <img src="assets/image/github.png">
-                    </div>
                 </div>
+                <div class="desc">
+                    <span> Group Chatting App</span>
+                    <hr>
+                    <p> "This project is done for my second semester Introduction to Networking final project.
+                        I used Java socket programming to develop this application"</p>
+                    <a href="https://github.com/sachinivindoya/groupChat">
+                        <img src="assets/image/github.png">
+                    </a>
+                </div>
+            </div>
             </div>
         </div>
     </section>
 
-
-    <!-- contact -->
-    <section>
-
-    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
 <!--jQuery-->
 <script src="assets/jQuery/jquery-3.6.1.min.js"></script>
