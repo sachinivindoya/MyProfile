@@ -13,6 +13,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    background: #232732;
 }
 /* scroll bar */
 ::-webkit-scrollbar {
@@ -26,7 +27,7 @@
 }
 header {
     position: fixed;
-    background: #ECF0F3;
+    background: #232732;
     width: 100%;
     top: 0;
     height: 73px;
@@ -393,7 +394,7 @@ main > section:nth-child(2) {
     position: relative;
     top: 0;
     width: 100%;
-    background: rgba(236, 240, 243, 0.4);
+    background:#232732
 }
 
 /**
@@ -508,16 +509,15 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 
 
 #education {
-    --color: rgba(30, 30, 30);
-    --bgColor: rgba(245, 245, 245);
+
     min-height: 100vh;
     display: grid;
     align-content: center;
     gap: 2rem;
     padding: 2rem;
     font-family: "Poppins", sans-serif;
-    color: var(--color);
-    background: var(--bgColor);
+
+    background: #232732
 }
 .title{
     text-align: center;
@@ -619,7 +619,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     position: absolute;
     width: 2rem;
     aspect-ratio: 1;
-    background: var(--bgColor);
+  /*  background: var(--bgColor);*/
     border: 0.3rem solid var(--accent-color);
     border-radius: 50%;
     top: 50%;
@@ -631,7 +631,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 /* title descr */
 .eduMenu li .title,
 .eduMenu li .descr {
-    background: var(--bgColor);
+  /*  background: var(--bgColor);*/
     position: relative;
     padding-inline: 1.5rem;
 }
@@ -707,7 +707,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     text-align: right;
 }
 .credits a {
-    color: var(--color);
+  /*  color: var(--color);*/
 }
 
 /* skill */
@@ -807,7 +807,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 
 .iconsParent {
     width: 100%;
-    overflow: hidden;
+    overflow:visible;
 }
 
 .iconsParent img {
@@ -896,7 +896,7 @@ main > section:nth-child(5) {
     position: relative;
     top: 0;
     width: 100%;
-    background: #ECF0F3;;
+    background: #232732;;
 }
 
 /**

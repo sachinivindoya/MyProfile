@@ -167,12 +167,12 @@
         <span id="subHeading">
             Hover over project icon to see details
         </span>
-        <div id="categoryParent">
+      <!--  <div id="categoryParent">
             <a id="typeAll" class onclick="typeAllClicked()">All</a>
             <a id="typeWeb" class onclick="typeWebClicked()">Web</a>
             <a id="typeStandalone" class onclick="typeStandaloneClicked()">Standalone</a>
             <a id="typeAssignments" class onclick="typeAssignmentsClicked()">Assignments </a>
-        </div>
+        </div> -->
         <div id="projectItemsContainer" class="reveal active">
             <div class="projectItem">
                 <div class="iconsParent">
@@ -188,9 +188,39 @@
                     </a>
                 </div>
             </div>
-            </div>
+        </div>
+        <div id="projectItemControllers">
+            <img src="./assets/image/next.png" onclick="leftScrollButtonClicked()"
+                 class="slideButtons" id="previousButton" alt="">
+            <div id="slideCount"></div>
+            <img src="./assets/image/next.png" onclick="rightScrollButtonClicked()"
+                 class="slideButtons" id="nextButton" alt="">
         </div>
     </section>
+    <!--gallery sectioning-->
+    <section id="gallery">
+        <!--title-->
+        <section>
+            <h1>Gallery</h1>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <!--Grid Container-->
+            <section>
+                <div></div> <!--Grid Items-->
+                <div></div> <!--Grid Items-->
+                <div></div> <!--Grid Items-->
+                <div></div> <!--Grid Items-->
+                <div></div> <!--Grid Items-->
+                <div></div> <!--Grid Items-->
+                <div></div> <!--Grid Items-->
+                <div></div> <!--Grid Items-->
+            </section>
+        </section>
+    </section>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
 <!--jQuery-->
