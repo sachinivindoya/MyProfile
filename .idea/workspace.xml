@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/gif.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +147,7 @@
       <workItem from="1687403823920" duration="635000" />
       <workItem from="1687405341059" duration="2469000" />
       <workItem from="1687412340114" duration="731000" />
-      <workItem from="1687413115421" duration="10758000" />
+      <workItem from="1687413115421" duration="11673000" />
     </task>
     <servers />
   </component>
