@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/assignment 2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/assignment1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/assignment2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/assignment3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/assignment4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/assignment9.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Assignment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -59,11 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GDSE63\MyProfile\pages\assets\images" />
       <recent name="D:\GDSE63\MyProfile\assets\image" />
       <recent name="D:\GDSE63\MyProfile\assets\image\project" />
       <recent name="D:\GDSE63\MyProfile\assets\image\gallery" />
       <recent name="D:\GDSE63\MyProfile\assets\image\skills" />
-      <recent name="D:\GDSE63\MyProfile\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDSE63\MyProfile\pages" />
@@ -148,7 +153,7 @@
       <workItem from="1687403823920" duration="635000" />
       <workItem from="1687405341059" duration="2469000" />
       <workItem from="1687412340114" duration="731000" />
-      <workItem from="1687413115421" duration="15439000" />
+      <workItem from="1687413115421" duration="16073000" />
     </task>
     <servers />
   </component>
