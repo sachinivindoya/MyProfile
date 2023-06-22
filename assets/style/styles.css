@@ -13,7 +13,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background: #232732;
+
 }
 /* scroll bar */
 ::-webkit-scrollbar {
@@ -27,7 +27,7 @@
 }
 header {
     position: fixed;
-    background: #232732;
+    background: #ECF0F3;
     width: 100%;
     top: 0;
     height: 73px;
@@ -204,8 +204,8 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
     height: 50px;
     width: 50px;
     border-radius: 100%;
-    background: #232732;
-    box-shadow: inset -13px -13px 16px #232732, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    background: #F9FAFB;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
     cursor: pointer;
 }
 
@@ -237,8 +237,8 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
     width: 60px;
     height: 60px;
-    background: #232732;
-    box-shadow: -23px -23px 45px #232732, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    background: rgba(255, 240, 243, 0.85);
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
     border-radius: 15px;
 }
 /* button background */
@@ -264,12 +264,40 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
     color: #8a0583 !important;
 }
 
+/**
+* first shape in home section
+*/
+main > section:first-child > section > div:first-child > div:first-child {
+    box-sizing: border-box;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 138px;
+    top: 92px;
+    border: 7px solid rgba(255, 165, 0, 0.52);
+    transform: matrix(0.6, 0.8, -0.79, 0.6, 0, 0);
+}
+
+/**
+* second shape in home section
+*/
+main > section:first-child > section > div:first-child > div:nth-child(3) {
+    box-sizing: border-box;
+    border-radius: 100%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 722px;
+    top: 160px;
+    border: 6px solid rgba(255, 165, 0, 0.52);
+}
+
 
 /* home image */
 main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
-    background: url(../image/image-2-removebg-preview.png);
-    width: 478px;
-    height: 547px;
+    background: url(../image/TechnoH-removebg-preview.png);
+    width: 400px;
+    height: 400px;
     background-size: cover;
     position: relative;
     bottom: 18px;
@@ -366,7 +394,7 @@ main > section:nth-child(2) {
     position: relative;
     top: 0;
     width: 100%;
-    background:#232732
+    background: rgba(236, 240, 243, 0.4);
 }
 
 /**
@@ -481,15 +509,16 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 
 
 #education {
-
+    --color: rgba(30, 30, 30);
+    --bgColor: rgba(245, 245, 245);
     min-height: 100vh;
     display: grid;
     align-content: center;
     gap: 2rem;
     padding: 2rem;
     font-family: "Poppins", sans-serif;
-
-    background: #232732
+    color: var(--color);
+    background: var(--bgColor);
 }
 .title{
     text-align: center;
@@ -591,7 +620,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     position: absolute;
     width: 2rem;
     aspect-ratio: 1;
-  /*  background: var(--bgColor);*/
+    background: var(--bgColor);
     border: 0.3rem solid var(--accent-color);
     border-radius: 50%;
     top: 50%;
@@ -603,7 +632,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 /* title descr */
 .eduMenu li .title,
 .eduMenu li .descr {
-  /*  background: var(--bgColor);*/
+    background: var(--bgColor);
     position: relative;
     padding-inline: 1.5rem;
 }
@@ -679,7 +708,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     text-align: right;
 }
 .credits a {
-  /*  color: var(--color);*/
+    color: var(--color);
 }
 
 /* skill */
@@ -714,7 +743,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 
 #projectsSectionMainParent {
 
-    background-color: #25252f;
+    background-color: #eeeeee;
     padding: 3rem 3rem 5rem 3rem;
     display: flex;
     align-items: center;
@@ -723,14 +752,14 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 }
 
 #projectsSectionMainParent #mainHeading {
-    color: white;
+    color: black;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 2rem;
 }
 
 #projectsSectionMainParent #subHeading {
-    color: white;
+    color: black;
     font-family: "Inter", sans-serif;
     font-weight: 200;
     line-height: 0.5;
@@ -755,7 +784,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 #projectItemsContainer {
     margin: auto 6rem;
     width: 85%;
-    background-color: #232732;
+    background-color: #eeeeee;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -779,16 +808,16 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 
 .iconsParent {
     width: 100%;
-    overflow:visible;
+    overflow: hidden;
 }
 
 .iconsParent img {
     width: 120%;
     transform: scale(1.2);
 }
-
+/* project hover css */
 .desc {
-    background-color: rgba(61, 61, 61, 0.9);
+    background-color: #7ecb79;
     z-index: 2;
     color: white;
     position: absolute;
@@ -868,7 +897,7 @@ main > section:nth-child(5) {
     position: relative;
     top: 0;
     width: 100%;
-    background: #232732;;
+    background: #ECF0F3;;
 }
 
 /**
@@ -887,7 +916,6 @@ main > section:nth-child(5) > section:first-child > h1 {
     margin-top: 5px;
     margin-bottom: 7px;
     padding-bottom: 18px;
-    color: #FFFFFF;
 }
 
 /**
