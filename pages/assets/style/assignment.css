@@ -129,9 +129,9 @@ main>section{
     cursor: pointer;
 }
 
-/* assignment 2 */
+/* assignment 2  (in class)*/
 
-#Assignment2{
+#Assignment_2{
     position: relative;
     width: 287px;
     height: 126px;
@@ -145,7 +145,7 @@ main>section{
     text-align: center;
 }
 
-#2-img{
+#2_img{
     position: relative;
     width: 280px;
     height: 280px;
@@ -153,7 +153,7 @@ main>section{
     left: 9px;
 }
 
-#2-div{
+#2_div{
     position: absolute;
     width: 280px;
     height: 280px;
@@ -163,7 +163,7 @@ main>section{
     opacity: 0;
 }
 
-#2-p{
+#2_p{
     position: relative;
     top: 41px;
     left: 41px;
@@ -177,7 +177,7 @@ main>section{
     font-weight: 510;
 }
 
-#2-view{
+#2_view{
     position: relative;
     top: 97px;
     left: 96px;
@@ -188,7 +188,7 @@ main>section{
     font-family: Arial;
 }
 
-#2-view:hover{
+#2_view:hover{
     background-color: #701C7D;
     font-weight: bold;
     color: white;
@@ -197,10 +197,25 @@ main>section{
     opacity: 100%;
 }
 
-#2-div:hover{
+#2_div:hover{
     opacity: 100%;
     transition-delay: 0s;
     transition-property: all;
     transition-duration: 0.5s;
     cursor: pointer;
+}
+
+/*assignment 2*/
+#Assignment2{
+    position: relative;
+    width: 287px;
+    height: 126px;
+    left: 9px;
+    top: -16px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
 }
