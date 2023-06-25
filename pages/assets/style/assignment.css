@@ -1,4 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    background-color: #701C7D;
+}
+
+/*PROJECTS*/
+#proTopic{
+    position: absolute;
+    width: 429px;
+    height: 126px;
+    left: 36px;
+    top: -8px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 126px;
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+
+main>section{
+    height: 1030px;
+    /*background-color: #00F461;*/
 }
