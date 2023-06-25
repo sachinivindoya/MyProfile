@@ -145,3 +145,62 @@ main>section{
     text-align: center;
 }
 
+#2-img{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    top: -94px;
+    left: 9px;
+}
+
+#2-div{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 83px;
+    left: 9px;
+    background-color: #1E17175E;
+    opacity: 0;
+}
+
+#2-p{
+    position: relative;
+    top: 41px;
+    left: 41px;
+    width: 207px;
+    font-size: 15px;
+    font-family: Arial;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 510;
+}
+
+#2-view{
+    position: relative;
+    top: 97px;
+    left: 96px;
+    width: 88px;
+    height: 33px;
+    opacity: 100%;
+    border-radius: 15px;
+    font-family: Arial;
+}
+
+#2-view:hover{
+    background-color: #701C7D;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px 3px white;
+    border: 3px solid #701C7D;
+    opacity: 100%;
+}
+
+#2-div:hover{
+    opacity: 100%;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
