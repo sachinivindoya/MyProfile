@@ -38,8 +38,7 @@ main>section{
     padding-left: 85px;
 }
 
-/* assignment  section*/
-/*Ayur Project*/
+
 /*projects div*/
 #projectSect>div{
     /* From https://css.glass */
@@ -53,7 +52,7 @@ main>section{
 
 }
 
-/*ayur topic*/
+/* assignment 1 */
 #Assignment1{
     position: relative;
     width: 429px;
@@ -129,3 +128,20 @@ main>section{
     transition-duration: 0.5s;
     cursor: pointer;
 }
+
+/* assignment 2 */
+
+#Assignment2{
+    position: relative;
+    width: 287px;
+    height: 126px;
+    left: 9px;
+    top: -16px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
