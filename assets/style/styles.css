@@ -1438,7 +1438,7 @@ main > section:nth-child(7) > section:first-child {
         transition: all 2s;
     }
 
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+    .details h4{
         font-size: 16px;
         transition: all 2s;
     }
@@ -1483,7 +1483,7 @@ main > section:nth-child(7) > section:first-child {
             margin-top: 5px;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+        .details h4{
             font-size: 13px;
             margin-top: 5px;
         }
@@ -1511,7 +1511,7 @@ main > section:nth-child(7) > section:first-child {
             margin-top: 6px;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+        .details h4 {
             font-size: 14px;
             margin-top: 6px;
         }
