@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2b4f2be-e529-4dd7-9472-928d27e2ddaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assets/images/google-drive-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Assignment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/assets/style/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assets/style/assignment.css" afterDir="false" />
@@ -47,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../kavindu/myProfile-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ORM/IJSE-Assignment8" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -151,7 +153,7 @@
       <workItem from="1687412340114" duration="731000" />
       <workItem from="1687413115421" duration="23635000" />
       <workItem from="1687686957950" duration="8159000" />
-      <workItem from="1687739989619" duration="5418000" />
+      <workItem from="1687739989619" duration="9934000" />
     </task>
     <servers />
   </component>
