@@ -22,11 +22,10 @@ body{
 
 main>section{
     height: 1030px;
-    /*background-color: #00F461;*/
+
 }
 /*project section grid*/
 #projectSect{
-    /*border: 2px solid black;*/
     position: relative;
     top: 235px;
     height: 868px;
@@ -40,7 +39,6 @@ main>section{
 
 /*projects div*/
 #projectSect>div{
-    /* From https://css.glass */
     background: linear-gradient(to bottom, #FFFFFF, #7ecb79);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -76,7 +74,6 @@ img{
     border-radius: 10px;
 }
 
-
 .As{
     position: absolute;
     width: 280px;
@@ -86,9 +83,7 @@ img{
     background-color: #ffffff;
     opacity: 0;
     border-radius: 10px;
-
 }
-
 
 p{
     position: relative;
