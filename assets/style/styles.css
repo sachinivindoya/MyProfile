@@ -892,6 +892,23 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     filter: sepia(79%) saturate(658%) hue-rotate(100deg) brightness(88%)
     contrast(95%);
 }
+.ViewBtn{
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    border-radius: 30px;
+}
+
+
+.ViewBtn:hover{
+    background-color: #7ecb79;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 8px 3px white;
+    border: 1px solid #0ca205;
+
+}
+
 /*------------------------------------------------------------------------*/
 /*  gallery section */
 
