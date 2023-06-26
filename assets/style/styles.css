@@ -30,9 +30,9 @@ header {
     background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
     width: 100%;
     top: 0;
-    height: 73px;
+    height: 75px;
     z-index: 999;
-    opacity: 85%;
+    opacity: 80%;
 }
 
 #blog{
@@ -124,6 +124,7 @@ main {
 main > section:nth-child(1) {
     position: relative;
     background-image: url("../image/Home Other HD Wallpapers Green Purple White Simple Background.jpg");
+    opacity: 95%;
     width: 100%;
     height: 90vh;
 }
@@ -161,17 +162,17 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
 /* s */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
     font-family: "Roboto", sans-serif;
-    font-size: 80px;
-    color: #32023d;
+    font-size: 85px;
+    color: #701C7D;
     margin-top: 16px;
     margin-bottom: 16px;
     text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.1);
 }
 /* rest of the name */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 60px;
-    color: #e4e3e2;
+    color: #dddddd;
 }
 
 .typed-cursor {
@@ -198,35 +199,32 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
     color: #32023d;
     cursor: pointer;
     opacity: 75%;
-
 }
-/* button arrow */
-main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div {
-    position: absolute;
-    top: 1px;
-    left: 148px;
+main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4):hover{
+    position: relative;
+    width: 198px;
     height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    background: #F9FAFB;
-    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+    background-color: #701C7D;
+    border-radius: 40px;
+    box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.36);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #ffffff;
     cursor: pointer;
+    opacity: 75%;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+
 }
 
-main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div:first-child > i:first-child {
-    height: 27px;
-    width: 27px;
-    position: absolute;
-    left: 29%;
-    top: 29%;
-    bottom: 41.09%;
-    color: #8a0583;
-    cursor: pointer;
-}
 
-/**
-* social links section
-*/
+    /**
+    * social links section
+    */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > h3 {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -241,7 +239,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
     width: 60px;
     height: 60px;
-    background: #eeeeee;
+    background: rgba(235, 236, 235, 0.22);
     box-shadow: -5px -10px 10px #000000, 10px 10px 10px rgba(13, 39, 80, 0.16);
     border-radius: 15px;
 }
@@ -251,7 +249,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
     left: 23%;
     top: 23%;
     font-size: 2.40em;
-    color: #909597;
+    color: #FFFFFF;
     cursor: pointer;
 }
 
