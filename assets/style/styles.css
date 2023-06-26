@@ -1428,7 +1428,7 @@ main > section:nth-child(7) > section:first-child {
         transition: all 2s;
     }
 
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+    .details i{
         font-size: 1.5em;
         transition: all 2s;
     }
@@ -1474,7 +1474,7 @@ main > section:nth-child(7) > section:first-child {
             margin-top: 45px;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+        .details i{
             font-size: 1.3em;
         }
 
@@ -1502,7 +1502,7 @@ main > section:nth-child(7) > section:first-child {
             flex-direction: column;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+        .details i {
             font-size: 22px;
         }
 
