@@ -135,7 +135,6 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: max-content;
     margin-top: 50px ;
 }
 /* Hello */
@@ -153,8 +152,8 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
     font-size: 25px;
     margin-top: 16px;
     margin-bottom: 0;
-    color: #F9FAFB;
-    text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.9);
+    color: #50484f;
+    text-shadow: 5px 10px 6px rgba(255, 255, 255, 0.9);
     text-align: center;
 }
 
@@ -195,7 +194,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > b
     text-align: left;
     padding-left: 25px;
     font-size: 20px;
-    color: #8a0583;
+    color: #32023d;
     cursor: pointer;
     opacity: 75%;
 
