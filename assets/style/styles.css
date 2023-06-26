@@ -1401,24 +1401,24 @@ i.fab {
 
 @media (max-width: 1231px) {
 /*contact section*/
-main > section:nth-child(7) > section:first-child {
+#conTopic{
     padding-top: 10px;
 }
 }
 
 @media (max-width: 1024px) {
     /*contact section*/
-    main > section:nth-child(7) > section:nth-child(2) > section:first-child > h3:first-child {
+    .top {
         font-size: 25px;
         transition: all 2s;
     }
 
-    main > section:nth-child(7) > section:nth-child(2) > section:first-child > h4:nth-child(2) {
+    .details p {
         font-size: 19px;
         transition: all 2s;
     }
 
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) {
+    #contact{
         margin-top: 68px;
         transition: all 2s;
     }
@@ -1433,7 +1433,7 @@ main > section:nth-child(7) > section:first-child {
         transition: all 2s;
     }
 
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+ .details p{
         font-size: 17px;
         transition: all 2s;
     }
@@ -1443,25 +1443,6 @@ main > section:nth-child(7) > section:first-child {
         transition: all 2s;
     }
 
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h3:first-child {
-        font-size: 25px;
-        transition: all 2s;
-    }
-
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) > h4:nth-child(2) {
-        font-size: 19px;
-        transition: all 2s;
-    }
-
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) {
-        margin-top: 65px;
-        transition: all 2s;
-    }
-
-    main > section:nth-child(7) > section:nth-child(3) {
-        margin-top: 46px;
-        transition: all 2s;
-    }
 }
 
     @media (max-width: 882px) {
@@ -1470,7 +1451,7 @@ main > section:nth-child(7) > section:first-child {
             width: 564px;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) {
+        #contact {
             margin-top: 45px;
         }
 
@@ -1478,7 +1459,7 @@ main > section:nth-child(7) > section:first-child {
             font-size: 1.3em;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+        .details p {
             font-size: 15px;
             margin-top: 5px;
         }
@@ -1506,7 +1487,7 @@ main > section:nth-child(7) > section:first-child {
             font-size: 22px;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+       .top {
             font-size: 16px;
             margin-top: 6px;
         }
@@ -1516,71 +1497,19 @@ main > section:nth-child(7) > section:first-child {
             margin-top: 6px;
         }
 
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) {
+        #contact {
             margin-top: 32px;
         }
 
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
-            margin-bottom: 20px;
-        }
 
         main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) {
             margin-top: 35px;
         }
 
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:first-child {
-            flex-direction: column;
-            gap: 29px;
-            transition: all 2s;
-        }
-
-        .contactDetails > input {
-            width: 81vw;
-            border-radius: 23px;
-            font-size: 14px;
-            transition: all 2s;
-        }
-
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(2) > input {
-            border-radius: 23px;
-            font-size: 14px;
-            transition: all 2s;
-        }
-
-        main > section:nth-child(7) > section:nth-child(3) > form:first-child > fieldset > div:nth-child(3) > textarea {
-            border-radius: 23px;
-            font-size: 14px;
-            transition: all 2s;
-        }
-
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset {
-            align-items: normal;
-        }
-
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
-            gap: 20px;
-            width: 137px;
-            height: 37px;
-            font-size: 12px;
-            padding-top: 13px;
-        }
-
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div {
-            margin-top: -9px;
-            width: 30px;
-            height: 30px;
-        }
-
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div > i {
-            left: 31.5%;
-            top: 29.19%;
-        }
     }
 
     @media (max-width: 622px) {
-        main > section:nth-child(7) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
-            margin-bottom: 16px;
-        }
+
     }
 
     /*  footer
