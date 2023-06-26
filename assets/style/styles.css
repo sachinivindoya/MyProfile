@@ -65,9 +65,9 @@ header {
     list-style: none;
     cursor: pointer;
     padding: 10px;
-    font-family: "Century Gothic" !important;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px;
+    font-weight: 550;
 }
 
 .menu ul li a {
@@ -982,9 +982,65 @@ i.fab {
     opacity: 90%;
 }
 
+/* contact
+============================================================================
+*/
 
-/*  footer
-   ========================================================================== */
+/**
+* contact details display flex type and justify-content center in contact section
+*/
+#contact {
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
+* contact details justify-content space-evenly in contact section
+*/
+.info{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 1004px;
+    margin-bottom: 25px;
+}
+
+/**
+* all contact details divs added flex-direction column and align-items center in contact section
+*/
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**
+* customized all contact detail sections title fonts sizes in contact section
+*/
+.details h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+/**
+* customized all contact detail sections icons sizes and colors in contact section
+*/
+.details i{
+    color: #7ecb79;
+    font-size: 1.99em;
+}
+
+/**
+* customized all contact detail sections descriptions fonts sizes in contact section
+*/
+.details p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
 /*  footer
    ========================================================================== */
 
