@@ -1423,7 +1423,7 @@ main > section:nth-child(7) > section:first-child {
         transition: all 2s;
     }
 
-    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div {
+    .info {
         width: 760px;
         transition: all 2s;
     }
@@ -1466,7 +1466,7 @@ main > section:nth-child(7) > section:first-child {
 
     @media (max-width: 882px) {
         /*contact section*/
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div {
+        .info {
             width: 564px;
         }
 
@@ -1495,7 +1495,7 @@ main > section:nth-child(7) > section:first-child {
 
     @media (max-width: 425px) {
         /*contact section*/
-        main > section:nth-child(7) > section:nth-child(2) > section:nth-child(2) > div {
+        .info{
             width: max-content;
             display: flex;
             row-gap: 23px;
