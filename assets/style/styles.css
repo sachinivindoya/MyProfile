@@ -1488,8 +1488,7 @@ i.fab {
         }
 
        .top {
-            font-size: 16px;
-            margin-top: 6px;
+         display: none;
         }
 
         .details h4 {
@@ -1509,7 +1508,9 @@ i.fab {
     }
 
     @media (max-width: 622px) {
-
+        .top {
+            display: none;
+        }
     }
 
     /*  footer
