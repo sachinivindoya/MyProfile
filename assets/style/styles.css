@@ -795,16 +795,6 @@ i.fab {
     color: slategray;
 }
 
-.green {
-    background: yellowgreen;
-    color: darkslategray;
-}
-
-.crimson {
-    background: crimson;
-    color: firebrick;
-}
-
 .steel {
     background: steelblue;
     color: gold;
@@ -821,7 +811,7 @@ i.fab {
 }
 
 .gainsboro {
-    background: gainsboro;
+    background: seagreen;
     color: orangered;
 }
 
@@ -1068,7 +1058,7 @@ footer {
     position: relative;
     width: 100%;
     background: #701C7D;
-    height: 30vh;
+
 }
 
 /**
