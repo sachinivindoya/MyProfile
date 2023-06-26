@@ -305,6 +305,7 @@ button:hover{
         border: 1px solid rgba(45, 10, 81, 0.32);
         width: 229px;
         height: 380px;
+        border-radius: 10px;
     }
 
     h2 {
@@ -327,6 +328,7 @@ button:hover{
         height: 280px;
         top: -94px;
         left: 9px;
+        border-radius: 10px;
     }
 
 
@@ -338,6 +340,7 @@ button:hover{
         left: 9px;
         background-color: #1E17175E;
         opacity: 0;
+        border-radius: 10px;
     }
 
 
@@ -376,6 +379,134 @@ button:hover{
     }
 
     As:hover {
+        opacity: 100%;
+        transition-delay: 0s;
+        transition-property: all;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+}
+
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 375px) {
+    /*PROJECTS*/
+    #proTopic {
+        position: absolute;
+        width: 68px;
+        height: 126px;
+        left: 26px;
+        top: 9px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 126px;
+        color: #8a0583;
+        opacity: 0.4;
+    }
+
+    main > section {
+        height: 1950px;
+        /*background-color: #00F461;*/
+    }
+
+    /*project section grid*/
+    #projectSect {
+        /*border: 2px solid black;*/
+        position: relative;
+        top: 235px;
+        height: 1715px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 50px;
+        padding-left: 45px;
+    }
+
+
+    #projectSect > div {
+        background: linear-gradient(to bottom,#FFFFFF,#8a0583);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(45, 10, 81, 0.32);
+        width: 284px;
+        height: 380px;
+        border-radius: 10px;
+    }
+
+
+    h2 {
+        position: relative;
+        width: 243px;
+        height: 126px;
+        left: 46px;
+        top: -60px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 126px;
+        color: #8a0583;
+    }
+
+    img {
+        position: relative;
+        width: 266px;
+        height: 280px;
+        top: -94px;
+        left: 9px;
+        border-radius: 10px;
+    }
+
+
+    .As {
+        position: absolute;
+        width: 266px;
+        height: 282px;
+        top: 89px;
+        left: 9px;
+        background-color: #1E17175E;
+        opacity: 0;
+        border-radius: 10px;
+    }
+
+
+      p{
+        position: relative;
+        top: 41px;
+        left: 28px;
+        width: 207px;
+        font-size: 15px;
+        font-family: Arial;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 20px;
+        font-style: normal;
+        font-weight: 510;
+    }
+
+    button {
+        position: relative;
+        top: 51px;
+        left: 90px;
+        width: 88px;
+        height: 33px;
+        opacity: 100%;
+        border-radius: 15px;
+        font-family: Arial;
+    }
+
+    button:hover {
+        background-color: #701C7D;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0px 1px 8px 3px white;
+        border: 3px solid #701C7D;
+        opacity: 100%;
+    }
+
+    .As:hover {
         opacity: 100%;
         transition-delay: 0s;
         transition-property: all;
