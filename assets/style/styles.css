@@ -523,6 +523,88 @@ main > section:first-child > section:first-child > div:first-child {
 }
 
 @media (max-width: 375px) {
+    /*home section*/
+    main > section:first-child > section:first-child > div:first-child {
+        flex-direction: column-reverse;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 0;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+        margin-bottom: 44px;
+        align-items: center;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+        font-size: 20px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
+        font-size: 25px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
+        font-size: 29px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
+        font-size: 30px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
+        font-size: 30px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) {
+        width: 127px;
+        height: 35px;
+        font-size: 15px;
+        margin-bottom: 33px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div {
+        top: 3px;
+        left: 94px;
+        height: 29px;
+        width: 29px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) > div:first-child > i:first-child {
+        font-size: 13px;
+        left: 31%;
+        top: 31%;
+    }
+
+    main > section:first-child > section:first-child > div:first-child > aside:first-child > section:nth-child(5) > h3:first-child {
+        display: none;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) {
+        margin-bottom: 14px;
+        margin-top: -30px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
+        width: 36px;
+        height: 35px;
+        background: rgba(236, 240, 243, 50.85);
+        box-shadow: -23px -23px 45px #ffffff, 5px 1px 50px rgb(13 39 80);
+        border-radius: 15px;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div > a > i {
+        left: 26%;
+        top: 26%;
+        font-size: 1.2em;
+        transition: all 2s;
+    }
+
+    main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > a > i {
+        font-size: 1.2em;
+    }
+
+
 
 }
 /*========================================================================================================================
