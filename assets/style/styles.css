@@ -13,7 +13,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
+    background: black;
 
 
 }
@@ -29,7 +29,7 @@
 }
 header {
     position: fixed;
-    background: #ECF0F3;
+    background: #000000;
     width: 100%;
     top: 0;
     height: 73px;
@@ -76,7 +76,7 @@ header {
     line-height: 20px;
     text-decoration: none;
     transition: 0.3s all;
-    color: black;
+    color: white;
 }
 
 .menu ul li a:hover {
@@ -123,7 +123,7 @@ main {
 
 main > section:nth-child(1) {
     position: relative;
-    background: #eeeeee;
+    background: #000000;
     width: 100%;
 }
 
@@ -142,7 +142,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
     font-size: 31px;
     margin-top: 0;
     margin-bottom: 0;
-    color: #000000;
+    color: #FFFFFF;
 }
 /* web designer...*/
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
@@ -156,13 +156,13 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) > span {
     font-family: Poppins;
     font-size: 30px;
-    color: #000000;
+    color: #FFFFFF;
 }
 /* s */
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
     font-family: "Poppins" ;
     font-size: 60px;
-    color: #FFA500;
+    color: #7ecb79;
     margin-top: 16px;
     margin-bottom: 16px;
     text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.1);
@@ -239,8 +239,8 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > s
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav > div {
     width: 60px;
     height: 60px;
-    background: rgba(255, 240, 243, 0.85);
-    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    background: black;
+    box-shadow: -23px -23px 45px #000000, 28px 28px 50px rgba(13, 39, 80, 0.16);
     border-radius: 15px;
 }
 /* button background */
@@ -424,7 +424,7 @@ main > section:nth-child(2) > section:first-child > h1::before {
     display: block;
     width: 120px;
     height: 2px;
-    background: #ddd;
+    background: #000000;
     bottom: 2px;
     left: calc(50% - 60px);
     border-radius: 2px;
@@ -449,7 +449,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     line-height: 52px;
     margin-top: 0;
     margin-bottom: 24px;
-    color: #8a0583;
+    color: #7ecb79;
 }
 /*
 * introducing description in about section
@@ -511,16 +511,17 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 
 
 #education {
-    --color: rgba(30, 30, 30);
-    --bgColor: rgba(245, 245, 245);
+   /* --color: rgba(30, 30, 30);
+    --bgColor: rgba(245, 245, 245);*/
     min-height: 100vh;
     display: grid;
     align-content: center;
     gap: 2rem;
     padding: 2rem;
     font-family: "Poppins", sans-serif;
-    color: var(--color);
-    background: var(--bgColor);
+ /*   color: var(--color);
+    background: var(--bgColor);*/
+    background: black;
 }
 .title{
     text-align: center;
@@ -541,6 +542,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 }*/
 .eduTitle h1{
     text-align: center;
+    color: #FFFFFF;
 }
 
 .eduMenu{
@@ -609,6 +611,7 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     aspect-ratio: 1;
     background: var(--accent-color);
     background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+
     position: absolute;
     top: 100%;
 
@@ -622,11 +625,11 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     position: absolute;
     width: 2rem;
     aspect-ratio: 1;
-    background: var(--bgColor);
+ /*  background: var(--bgColor);*/
     border: 0.3rem solid var(--accent-color);
     border-radius: 50%;
     top: 50%;
-
+    background: #000000;
     transform: translate(50%, -50%);
     right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
@@ -634,9 +637,10 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 /* title descr */
 .eduMenu li .title,
 .eduMenu li .descr {
-    background: var(--bgColor);
+  /*  background: var(--bgColor);*/
     position: relative;
     padding-inline: 1.5rem;
+    background: black;
 }
 .eduMenu li .title {
     overflow: hidden;
@@ -710,7 +714,8 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     text-align: right;
 }
 .credits a {
-    color: var(--color);
+   /* color: var(--color);*/
+    color: #FFFFFF;
 }
 
 /* skill */
@@ -892,22 +897,26 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
     filter: sepia(79%) saturate(658%) hue-rotate(100deg) brightness(88%)
     contrast(95%);
 }
-.ViewBtn{
-    font-size: 20px;
+.ViewAssignment{
+    position: relative;
+    top: 51px;
+    width: 200px;
+    height: 28px;
+    opacity: 100%;
+    border-radius: 10px;
+    font-family: Arial;
     text-align: center;
-    font-family: Roboto;
-    border-radius: 30px;
 }
 
-
-.ViewBtn:hover{
+.ViewAssignment:hover{
     background-color: #7ecb79;
     font-weight: bold;
-    color: white;
+    color: #7ecb79;
     box-shadow: 0px 1px 8px 3px white;
-    border: 1px solid #0ca205;
-}
+    border: 3px solid #ffffff;
+    opacity: 90%;
 
+}
 /*------------------------------------------------------------------------*/
 /*  gallery section */
 
