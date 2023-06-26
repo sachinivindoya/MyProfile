@@ -983,68 +983,7 @@ i.fab {
 
 }
 /* contact */
-footer {
-    background: #701C7D;
-    font-size: .9rem;
-    margin-top: 7rem;
-    padding: 3rem 0;
-    text-align: center;
-}
-.footer__logo {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-}
-footer a {
-    color: var(--color-bg);
-}
 
-a {
-    color: #4db5ff;
-    color: var(--color-primary);
-    transition: all .4s ease;
-    transition: var(--transition);
-}
-
-.footer__socials, .permalinks {
-    display: flex;
-    justify-content: center;
-}
-
-.permalinks {
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin: 0 auto 3rem;
-}
-.footer__socials {
-    gap: 1rem;
-    margin-bottom: 4rem;
-}
-
-.footer__socials, .permalinks {
-    display: flex;
-    justify-content: center;
-}
-.footer__socials a {
-    background: var(--color-bg);
-    border: 1px solid transparent;
-    border-radius: 0.7rem;
-    color: var(--color-white);
-    display: flex;
-    padding: 0.8rem;
-}
-svg {
-    stroke: currentcolor;
-    fill: currentcolor;
-    stroke-width: 0;
-    height: 1em;
-    width: 1em;
-}
-.footer__copyright {
-    color: #dddddd;
-    margin-bottom: 4rem;
-}
 /*------------------------------------------------------------------------*/
 /*  gallery section */
 
