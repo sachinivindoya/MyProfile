@@ -18,12 +18,13 @@
 /* scroll bar */
 ::-webkit-scrollbar {
     display: none;
-    width: 6px;
+    width: 10px;
     background: #3f3838;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #0ca205;
+    border-radius: 5px;
 }
 header {
     position: fixed;
@@ -292,10 +293,6 @@ main > section:first-child > section:first-child > div:first-child {
 /* responsive  */
 /*========================================================================================================================*/
 @media (max-width: 1231px){
-    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
-        width: 380px;
-        height: 487px;
-    }
 
     main > section:first-child > section:first-child > div:first-child {
         margin-top: 2px;
@@ -400,7 +397,7 @@ main > section:first-child > section:first-child > div:first-child {
 
     #header-Nav i {
         font-size: 1.8em;
-        color: #FFA500;
+        color: #701C7D;
         transition: all .5s;
     }
 
@@ -421,11 +418,7 @@ main > section:first-child > section:first-child > div:first-child {
         transition: all 2s;
     }
 
-    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
-        width: 360px;
-        height: 397px;
-        transition: all 2s;
-    }
+
 
     main > section:first-child > section:first-child > div:first-child {
         width: 756px;
@@ -524,21 +517,13 @@ main > section:first-child > section:first-child > div:first-child {
         transition: all 2s;
     }
 
-    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
-        width: 317px;
-        height: 382px;
-    }
-
     main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > section:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > a > i {
         font-size: 1.2em;
     }
 }
 
 @media (max-width: 375px) {
-    main > section:first-child > section > div:first-child > aside:nth-child(2) > div:first-child {
-    width: 300px;
-    height: 382px;
-}
+
 }
 /*========================================================================================================================
 /*  about section */
