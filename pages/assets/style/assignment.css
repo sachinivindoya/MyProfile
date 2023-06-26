@@ -144,9 +144,9 @@ button:hover{
         font-size: 100px;
         line-height: 126px;
 
-        color: #000000;
+        color: #7ecb79;
 
-        opacity: 0.4;
+        opacity: 50%;
     }
 
     main > section {
@@ -169,14 +169,14 @@ button:hover{
 
 
     #projectSect > div {
-        background: rgba(45, 10, 81, 0.58);
+        background: linear-gradient(to bottom, #FFFFFF, #7ecb79);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(45, 10, 81, 0.32);
+       /* border: 1px solid rgba(45, 10, 81, 0.32);*/
         width: 260px;
         height: 380px;
-
+        border-radius: 10px;
     }
 
 
@@ -189,9 +189,9 @@ button:hover{
         font-family: 'Arial';
         font-style: normal;
         font-weight: 700;
-        font-size: 28px;
+        font-size: 25px;
         line-height: 126px;
-        color: #FFFFFF;
+        color: #000000;
     }
 
     img {
@@ -200,6 +200,7 @@ button:hover{
         height: 280px;
         top: -94px;
         left: 9px;
+        border-radius: 10px;
     }
 
 
@@ -209,8 +210,9 @@ button:hover{
         height: 281px;
         top: 78px;
         left: 9px;
-        background-color: #1E17175E;
+        background-color: #ffffff;
         opacity: 0;
+        border-radius: 10px;
     }
 
 
@@ -221,7 +223,7 @@ button:hover{
         width: 207px;
         font-size: 15px;
         font-family: Arial;
-        color: #FFFFFF;
+        color: #000000;
         text-align: center;
         line-height: 20px;
         font-style: normal;
@@ -240,11 +242,11 @@ button:hover{
     }
 
     button:hover {
-        background-color: #701C7D;
+        background-color: #7ecb79;
         font-weight: bold;
         color: white;
         box-shadow: 0px 1px 8px 3px white;
-        border: 3px solid #701C7D;
+        border: 1px solid #ffffff;
         opacity: 100%;
     }
 
