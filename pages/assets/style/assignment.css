@@ -1,5 +1,5 @@
 body{
-    background-color: #701C7D;
+    background-color: #FFFFFF;
 }
 
 /*PROJECTS*/
@@ -7,16 +7,15 @@ body{
     position: absolute;
     width: 429px;
     height: 126px;
-    left: 36px;
+    left: 50px;
     top: -8px;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 110px;
+    font-size: 80px;
     line-height: 126px;
 
-    color: #FFFFFF;
+    color: #7ecb79;
 
     opacity: 0.4;
 }
@@ -42,7 +41,7 @@ main>section{
 /*projects div*/
 #projectSect>div{
     /* From https://css.glass */
-    background: rgba(45, 10, 81, 0.58);
+    background: #FFFFFF;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -64,7 +63,7 @@ h2{
     font-weight: 700;
     font-size: 30px;
     line-height: 126px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 img{
@@ -73,17 +72,20 @@ img{
     height: 280px;
     top: -94px;
     left: 9px;
+    border-radius: 10px;
 }
 
 
 .As{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 280px;
+    height: 250px;
     top: 83px;
     left: 9px;
-    background-color: #1E17175E;
+    background-color: #ffffff;
     opacity: 0;
+    border-radius: 10%;
+
 }
 
 
@@ -94,7 +96,7 @@ p{
     width: 207px;
     font-size: 15px;
     font-family: Arial;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
     line-height: 20px;
     font-style: normal;
@@ -113,16 +115,16 @@ button{
 }
 
 button:hover{
-    background-color: #701C7D;
+    background-color: #0ca205;
     font-weight: bold;
     color: white;
     box-shadow: 0px 1px 8px 3px white;
-    border: 3px solid #701C7D;
+    border: 3px solid #000000;
     opacity: 100%;
 }
 
 .As:hover{
-    opacity: 100%;
+    opacity: 80%;
     transition-delay: 0s;
     transition-property: all;
     transition-duration: 0.5s;
