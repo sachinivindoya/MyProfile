@@ -681,16 +681,14 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 
 /* skill */
 #experience {
-    margin-top: 8rem;
+    margin-top: 5rem;
+
 }
-#experience>h2, #experience>h5 {
-    color: hsla(0,0%,100%,.6);
-    color: var(--color-light);
+#experience>h2 {
+    color: black;
     text-align: center;
-}
-section>h2 {
-   color: #4db5ff;
-    margin-bottom: 3rem;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
 }
 .container {
     margin: 0 auto;
@@ -703,23 +701,17 @@ section>h2 {
     grid-template-columns: 1fr 1fr;
 }
 .experience__container>div {
-    background: #7ecb79;
-    border: 1px solid transparent;
+    background: transparent;
+    border: 1px solid #8a0583;
     border-radius: 2rem;
     padding: 2.4rem 5rem;
+}
 
-}
-.experience__container>div:hover{
-    transition-delay: 0s;
-    transition-property: all;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    color: #701C7D;
-}
-.experience__container>div h3 {
-    color: #FFA500;
+.experience__container>div h2 {
+    color: #7ecb79;
     margin-bottom: 2rem;
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 .experience__content {
     grid-row-gap: 2rem;
@@ -730,6 +722,7 @@ section>h2 {
 .experience__details {
     display: flex;
     gap: 1rem;
+    font-family: "Poppins", sans-serif;
 }
 .experience__details-icon {
     color: #8a0583;
