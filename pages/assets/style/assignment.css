@@ -272,9 +272,9 @@ button:hover{
         font-family: 'Arial';
         font-style: normal;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 40px;
         line-height: 126px;
-        color: #FFFFFF;
+        color: #8a0583;
         opacity: 0.4;
     }
 
@@ -338,7 +338,7 @@ button:hover{
         height: 282px;
         top: 89px;
         left: 9px;
-        background-color: #1E17175E;
+        background-color: #FFFFFF;
         opacity: 0;
         border-radius: 10px;
     }
@@ -351,7 +351,7 @@ button:hover{
         width: 175px;
         font-size: 15px;
         font-family: Arial;
-        color: #FFFFFF;
+        color: #8a0583;
         text-align: center;
         line-height: 20px;
         font-style: normal;
@@ -379,7 +379,7 @@ button:hover{
     }
 
     As:hover {
-        opacity: 100%;
+        opacity: 90%;
         transition-delay: 0s;
         transition-property: all;
         transition-duration: 0.5s;
@@ -445,7 +445,7 @@ button:hover{
         font-family: 'Arial';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 40px;
         line-height: 126px;
         color: #8a0583;
     }
@@ -466,7 +466,7 @@ button:hover{
         height: 282px;
         top: 89px;
         left: 9px;
-        background-color: #1E17175E;
+        background-color: #FFFFFF;
         opacity: 0;
         border-radius: 10px;
     }
@@ -507,7 +507,7 @@ button:hover{
     }
 
     .As:hover {
-        opacity: 100%;
+        opacity: 90%;
         transition-delay: 0s;
         transition-property: all;
         transition-duration: 0.5s;
@@ -526,9 +526,9 @@ button:hover{
         font-family: 'Arial';
         font-style: normal;
         font-weight: 700;
-        font-size: 90px;
+        font-size: 50px;
         line-height: 126px;
-        color: #FFFFFF;
+        color: #8a0583;
         opacity: 0.4;
     }
 
@@ -594,7 +594,7 @@ button:hover{
         height: 282px;
         top: 89px;
         left: 9px;
-        background-color: #1E17175E;
+        background-color: #FFFFFF;
         opacity: 0;
         border-radius: 10px;
     }
@@ -635,7 +635,7 @@ button:hover{
     }
 
     .As:hover {
-        opacity: 100%;
+        opacity: 90%;
         transition-delay: 0s;
         transition-property: all;
         transition-duration: 0.5s;
