@@ -466,11 +466,11 @@ main > section:first-child > section:first-child > div:first-child {
     }
 
     main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > button:nth-child(4) {
