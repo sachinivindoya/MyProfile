@@ -1507,7 +1507,7 @@ i.fab {
 
     }
 
-@media (max-width: 325px) {
+@media (max-width: 622px) {
     /*contact section*/
     .info{
         width: max-content;
@@ -1540,11 +1540,6 @@ i.fab {
 
 }
 
-    @media (max-width: 622px) {
-        .top {
-            display: none;
-        }
-    }
 
     /*  footer
        ========================================================================== */
