@@ -50,7 +50,7 @@ main>section{
 
 }
 
-/* assignment 1 */
+
 h2{
     position: relative;
     width: 429px;
@@ -128,3 +128,131 @@ button:hover{
 }
  /*-------------responsive------------------*/
 
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    /*PROJECTS*/
+    #proTopic {
+        position: absolute;
+        width: 429px;
+        height: 126px;
+        left: 36px;
+        top: -8px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 126px;
+
+        color: #000000;
+
+        opacity: 0.4;
+    }
+
+    main > section {
+        height: 1030px;
+
+    }
+
+    /*project section grid*/
+    #projectSect {
+
+        position: relative;
+        top: 235px;
+        height: 868px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 50px;
+        padding-left: 37px;
+    }
+
+
+    #projectSect > div {
+        background: rgba(45, 10, 81, 0.58);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(45, 10, 81, 0.32);
+        width: 260px;
+        height: 380px;
+
+    }
+
+
+    h2 {
+        position: relative;
+        width: 429px;
+        height: 126px;
+        left: 56px;
+        top: -60px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 126px;
+        color: #FFFFFF;
+    }
+
+    img {
+        position: relative;
+        width: 242px;
+        height: 280px;
+        top: -94px;
+        left: 9px;
+    }
+
+
+    .As {
+        position: absolute;
+        width: 242px;
+        height: 281px;
+        top: 78px;
+        left: 9px;
+        background-color: #1E17175E;
+        opacity: 0;
+    }
+
+
+    p {
+        position: relative;
+        top: 41px;
+        left: 18px;
+        width: 207px;
+        font-size: 15px;
+        font-family: Arial;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 20px;
+        font-style: normal;
+        font-weight: 510;
+    }
+
+    button {
+        position: relative;
+        top: 51px;
+        left: 77px;
+        width: 88px;
+        height: 33px;
+        opacity: 100%;
+        border-radius: 15px;
+        font-family: Arial;
+    }
+
+    button:hover {
+        background-color: #701C7D;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0px 1px 8px 3px white;
+        border: 3px solid #701C7D;
+        opacity: 100%;
+    }
+
+    .As:hover {
+        opacity: 100%;
+        transition-delay: 0s;
+        transition-property: all;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+}
