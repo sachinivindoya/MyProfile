@@ -53,7 +53,7 @@ main>section{
 }
 
 /* assignment 1 */
-#Assignment1{
+h2{
     position: relative;
     width: 429px;
     height: 126px;
@@ -67,7 +67,7 @@ main>section{
     color: #FFFFFF;
 }
 
-#1-img{
+img{
     position: relative;
     width: 280px;
     height: 280px;
@@ -76,7 +76,7 @@ main>section{
 }
 
 
-#1-div{
+.As{
     position: absolute;
     width: 150px;
     height: 150px;
@@ -87,7 +87,7 @@ main>section{
 }
 
 
-#1-p{
+p{
     position: relative;
     top: 41px;
     left: 41px;
@@ -101,7 +101,7 @@ main>section{
     font-weight: 510;
 }
 
-#1-view{
+button{
     position: relative;
     top: 51px;
     left: 96px;
@@ -112,7 +112,7 @@ main>section{
     font-family: Arial;
 }
 
-#1-view:hover{
+button:hover{
     background-color: #701C7D;
     font-weight: bold;
     color: white;
@@ -121,156 +121,7 @@ main>section{
     opacity: 100%;
 }
 
-#1-div:hover{
-    opacity: 100%;
-    transition-delay: 0s;
-    transition-property: all;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-/* assignment 2  (in class)*/
-
-#Assignment_2{
-    position: relative;
-    width: 287px;
-    height: 126px;
-    left: 9px;
-    top: -16px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-#2_img{
-    position: relative;
-    width: 280px;
-    height: 280px;
-    top: -94px;
-    left: 9px;
-}
-
-#2_div{
-    position: absolute;
-    width: 280px;
-    height: 280px;
-    top: 83px;
-    left: 9px;
-    background-color: #1E17175E;
-    opacity: 0;
-}
-
-#2_p{
-    position: relative;
-    top: 41px;
-    left: 41px;
-    width: 207px;
-    font-size: 15px;
-    font-family: Arial;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 20px;
-    font-style: normal;
-    font-weight: 510;
-}
-
-#2_view{
-    position: relative;
-    top: 97px;
-    left: 96px;
-    width: 88px;
-    height: 33px;
-    opacity: 100%;
-    border-radius: 15px;
-    font-family: Arial;
-}
-
-#2_view:hover{
-    background-color: #701C7D;
-    font-weight: bold;
-    color: white;
-    box-shadow: 0px 1px 8px 3px white;
-    border: 3px solid #701C7D;
-    opacity: 100%;
-}
-
-#2_div:hover{
-    opacity: 100%;
-    transition-delay: 0s;
-    transition-property: all;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-/*assignment 2*/
-#Assignment2{
-    position: relative;
-    width: 287px;
-    height: 126px;
-    left: 9px;
-    top: -16px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #FFFFFF;
-    text-align: center;
-}
-#2-img{
-    position: relative;
-    width: 280px;
-    height: 280px;
-    top: -94px;
-    left: 9px;
-}
-
-#2-div{
-    position: absolute;
-    width: 280px;
-    height: 280px;
-    top: 83px;
-    left: 9px;
-    background-color: #1E17175E;
-    opacity: 0;
-}
-#2_p{
-    position: relative;
-    top: 41px;
-    left: 41px;
-    width: 207px;
-    font-size: 15px;
-    font-family: Arial;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 20px;
-    font-style: normal;
-    font-weight: 510;
-}
-
-#2-view{
-    position: relative;
-    top: 36px;
-    left: 96px;
-    width: 88px;
-    height: 33px;
-    opacity: 100%;
-    border-radius: 15px;
-    font-family: Arial;
-}
-
-#2-view:hover{
-    background-color: #701C7D;
-    font-weight: bold;
-    color: white;
-    box-shadow: 0px 1px 8px 3px white;
-    border: 3px solid #701C7D;
-    opacity: 100%;
-}
-
-#2-view:hover{
+.As:hover{
     opacity: 100%;
     transition-delay: 0s;
     transition-property: all;
