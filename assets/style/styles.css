@@ -170,7 +170,7 @@ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h
 main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(3) > span {
     font-family: "Roboto", sans-serif;
     font-size: 60px;
-    color: #ffffff;
+    color: #e4e3e2;
 }
 
 .typed-cursor {
@@ -680,32 +680,58 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
 }
 
 /* skill */
-
-
-.skillTitle{
+#experience {
+    margin-top: 8rem;
+}
+#experience>h2, #experience>h5 {
+ /*   color: hsla(0,0%,100%,.6);
+    color: var(--color-light);*/
     text-align: center;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
 }
-.SkillLogo{
-    display: inline-flex;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
-    -webkit-backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    border: 1px solid rgba(255,255,2550.18);
-    border-radius: 32px;
-    width: 800px;
-    height: 200px;
-    align-items: center;
-    alignment: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 25%;
+section>h2 {
+  /*  color: #4db5ff;
+    color: var(--color-primary);*/
+    margin-bottom: 3rem;
+}
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+.experience__container {
+    grid-gap: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+.experience__container>div {
+  /*  background: var(--color-bg-varient);*/
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 2.4rem 5rem;
+   /* transition: var(--transition);*/
+}
+.experience__container>div h3 {
+   /* color: var(--color-primary);*/
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.experience__content {
+    grid-row-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.experience__details {
+    display: flex;
+    gap: 1rem;
+}
+.experience__details-icon {
+    color: #8a0583;
+    margin-top: 6px;
 }
 
-.SkillImg{
-    padding: 10px;
-}
+
+
 /*----------------------------------------------------------------------------------*/
 /* project section */
 #projectsSectionMainParent {
