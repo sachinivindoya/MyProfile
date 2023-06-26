@@ -1507,6 +1507,39 @@ i.fab {
 
     }
 
+@media (max-width: 325px) {
+    /*contact section*/
+    .info{
+        width: max-content;
+        display: flex;
+        row-gap: 23px;
+        flex-direction: column;
+    }
+
+    .details i {
+        font-size: 22px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .details h4 {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    #contact {
+        margin-top: 32px;
+    }
+
+
+    main > section:nth-child(7) > section:nth-child(2) > section:nth-child(3) {
+        margin-top: 35px;
+    }
+
+}
+
     @media (max-width: 622px) {
         .top {
             display: none;
