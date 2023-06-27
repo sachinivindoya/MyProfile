@@ -870,6 +870,24 @@ main > section:nth-child(2) > section:nth-child(3) > div:first-child > aside:nth
         font-size: 21px;
     }
 }
+@media (max-width: 375px) {
+    /*about section*/
+    #aboutWave {
+        display: none;
+    }
+
+    main > section:nth-child(2) > section:nth-child(3) > div:first-child {
+        gap: 30px;
+    }
+
+    main > section:nth-child(2) > section:first-child > h1 {
+        font-size: 30px;
+    }
+
+    main > section:nth-child(2) > section:first-child > h4 {
+        font-size: 15px;
+    }
+}
 
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
