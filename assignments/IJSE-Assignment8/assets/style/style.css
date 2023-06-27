@@ -1,0 +1,46 @@
+body{
+    background-color: #34464f;
+}
+
+h1{
+    font-size: 26px;
+    color: white;
+    top:-150px;
+    left: 35%;
+    position: relative;
+
+}
+
+body>main{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 50%;
+    height: 80px;
+    position: relative;
+    top: 250px;
+    left: 25%;
+
+}
+body>main>section{
+    display: flex;
+}
+body>main>section>div{
+    width: 8vw;
+    height: 8vh;
+    margin: 1%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: -1px 1px 10px -1px black;
+
+}
+
+#btn-pnl{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    top: 20vh;
+    margin: auto;
+}
