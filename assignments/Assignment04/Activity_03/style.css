@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+
+}
+div{
+    position: absolute;
+    width: 10%;
+    height: 50px;
+    left: 0;
+    bottom: 95%;
+    background-color: red;
+    border-radius: 12px;
+    animation-name: animate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-fill-mode: backwards;
+
+}
+@keyframes animate {
+    0%{
+        left: 0;
+        bottom: 90%;
+
+    }
+    25%{
+        transform: rotate(360deg);
+        background-color: #ff0099;
+        left: 90%;
+        bottom: 90%;
+    }
+    50%{
+        transform: rotate(0);
+        background-color: #efd903;
+        left: 90%;
+        bottom: 0;
+    }
+    75%{
+        transform: rotate(360deg);
+        background-color: #0f25b7;
+        left: 0;
+        bottom: 0;
+    }
+
+    100%{
+        transform: rotate(0);
+        background-color: #20f817;
+        left: 0;
+        bottom: 90%;
+    }
+}

@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+}
+section{
+    position: relative;
+    display: flex;
+    width: 400%;
+    height: 100%;
+    right: 0;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-direction: alternate;
+
+    animation-iteration-count: infinite;
+}
+section>div{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section>div:nth-child(1){
+    background-image: url("assest/img/BN-YC933_PANDAS_J_20180404175718.jpg"  ) ;
+}
+section>div:nth-child(2){
+    background-image: url("assest/img/portrait-of-a-giant-panda-eating-bamboo-royalty-free-image-1583635024.jpg");
+}
+section>div:nth-child(3){
+    background-image: url("assest/img/_91022912_mediaitem91022911.jpg");
+}
+section>div:nth-child(4){
+    background-image: url("assest/img/210709050012-giant-panda-china-file.jpg");
+}
+
+@keyframes slide {
+    0%,15%{
+        right: 0;
+    }
+    25%,40%{
+        right: 100%;
+    }
+    50%,65%{
+        right: 200%;
+    }
+    75%,90%{
+        right: 300%;
+    }
+    100%{
+        right: 300%;
+    }
+}

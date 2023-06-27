@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header>nav{
+    position: relative;
+    height: 70px;
+
+}
+nav img{
+    width: auto;
+    height: 70px;
+}
+
+header>nav ul{
+    position: absolute;
+    right: 15px;
+    top: 0;
+
+}
+
+header>nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+
+}
+header>nav ul a{
+    font-size: 1.5em;
+}
+main{
+    position: relative;
+    width: 100%;
+
+}
+main>aside{
+    position: absolute;
+    width: 20%;
+    top: 0;
+    bottom: 0;
+    background-color: #5b25b4;
+
+}
+main>section{
+    position: relative;
+    width: 80%;
+    left: 20%;
+}
+main>section>div{
+    width: 100%;
+    height: 1px;
+    box-shadow: 0 2px 2px black;
+}
+
+main>section>section>div{
+    display: inline-block;
+    width: 32%;
+    border: green solid 2px;
+}
+main>section>section{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+main>section>article{
+    padding-left:10px;
+    overflow-x: hidden;
+    width: 95%;
+}
+
+main>section>article>p{
+    width: 100%;
+}
+aside>section{
+    width: 100%;
+}
+
+aside ul li{
+   list-style: none;
+    padding-top: 15px;
+}
+aside ul{
+   padding-left: 40px;
+    width: 100%;
+
+}
+
+
+
+footer{
+    position: relative;
+    background-color: #949090;
+    height:50px;
+}
+
+footer h3{
+ margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+nav a{
+    color: black;
+}
+aside a {
+    color: white;
+    font-size: 2.5em;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+    aside a {
+        color: white;
+        font-size: 1.7em;
+    }
+
+    header > nav ul li {
+        padding-top: 10px;
+
+    }
+
+    p {
+        font-size: 1.8em;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    aside a {
+        color: #ffffff;
+        font-size: 1.5em;
+
+    }
+    header>nav ul li{
+        padding-top: 10px;
+
+    }
+    p{
+        font-size: 1.5em;
+    }
+}
+@media all and (min-width: 727px) and (max-width: 768px) {
+    aside a {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    header > nav ul li {
+        padding-top: 10px;
+
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
+@media all and (max-width: 727px){
+       main>aside {
+            display: none;
+           background-color: red;
+        }
+    main>section{
+        left: 0;
+        width: 100%;
+    }
+
+}
+    @media all and (min-width: 631px) and (max-width: 727px){
+        main>section{
+            left: 0;
+            width: 100%;
+        }
+        header>nav ul li{
+            padding-top: 10px;
+
+        }
+        p{
+            font-size: 1.4em;
+        }
+    }
+
+@media all and (max-width: 631px){
+    header>nav ul li a{
+        font-size: 1.2em;
+    }
+    header>nav ul {
+       margin: 0;
+     left: 15%;
+  top: 50px;
+
+    }
+    header>nav{
+        height: 90px;
+    }
+    nav>div img{
+        position: absolute;
+        width: auto;
+        height: 50px;
+        left: 35%;
+    }
+    p{
+        font-size: 1.4em;
+    }
+}
+
+@media all and (max-width: 550px){
+    header>nav ul{
+        left:12% ;
+    }
+    header>nav ul li a{
+      font-size: 1.2em;
+    }
+    main>section>section{
+        display:flex;
+        flex-direction: column;
+        border: green solid 2px;
+    }
+    main>section>section>div{
+        position: relative;
+        margin-top: 20px;
+        left: 2.5%;
+        width:90%;
+    }
+}
+@media all and (min-width: 375px) and (max-width: 425px){
+    header>nav ul{
+        left:9% ;
+    }
+
+    header>nav ul li a{
+        font-size: 1.2em;
+    }
+
+    header>nav ul li{
+      margin-right: 5px;
+    }
+
+}
+@media all and (min-width: 320px) and (max-width: 375px){
+    header>nav ul{
+        left:1% ;
+    }
+
+    header>nav ul li a{
+        font-size: 1.2em;
+    }
+
+    header>nav ul li{
+        margin-right: 5px;
+    }
+    nav>div img{
+        left: 25%;
+    }
+
+}
+@media all  and (max-width: 320px){
+    header>nav ul{
+        left:-10% ;
+    }
+
+    header>nav ul li a{
+        font-size: 1em;
+    }
+
+    header>nav ul li{
+        margin-right: 2px;
+    }
+    nav>div img{
+        left: 15%;
+    }
+
+}
+

@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+main{
+    background-image: url("../img/sky.jpg");
+/*    background-image: url("/assets/img/sky.jpg");*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100vh;
+}
+main>section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.city{
+    position: absolute;
+    bottom: 200px;
+
+    background-image: url("../img/city.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    width: 500%;
+    height: 25%;
+    z-index: 1;
+    animation-name: rodeAndCity;
+    animation-duration:20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+.road{
+    position: absolute;
+
+    bottom: 0;
+    background-image: url("../img/road.jpg");
+    background-repeat: repeat-x;
+    width: 500%;
+    height: 200px;
+    z-index: 1;
+    animation-name: rodeAndCity;
+    animation-duration: 2s;
+    animation-direction: revert;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: black 20px 13px 7px 18px;
+}
+.car{
+    position: absolute;
+    background-image: url("../img/car.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 150px;
+    width:400px;
+    height: 200px;
+    left: 35%;
+    z-index: 1;
+    animation: car 1s linear infinite;
+
+}
+.rightWheel{
+    position: absolute;
+    bottom: 10%;
+    left: 70%;
+    background-image: url("../img/wheel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    z-index: 2;
+    animation:wheel 1s linear infinite;
+}
+.leftWheel{
+    position: absolute;
+    bottom: 10%;
+    left: 8.5%;
+    background-image: url("../img/wheel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    z-index: 2;
+    animation:wheel 1s linear infinite;
+
+
+}
+@keyframes rodeAndCity {
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(-2000px);
+    }
+}
+@keyframes car {
+    0%{
+        transform: translateY(3px);
+    }
+    50%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(3px);
+    }
+}
+@media all and (max-width: 500px){
+    .car {
+        position: absolute;
+        background-image: url(../img/car.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 110px;
+        width: 242px;
+        height: 200px;
+        left: 13%;
+        z-index: 1;
+        animation: car 1s linear infinite;
+    }
+    .leftWheel {
+        position: absolute;
+        bottom: 10%;
+        left: 8.5%;
+        background-image: url(../img/wheel.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 52px;
+        height: 100px;
+        z-index: 2;
+        animation: wheel 1s linear infinite;
+    }
+    .rightWheel {
+        position: absolute;
+        bottom: 10%;
+        left: 70%;
+        background-image: url(../img/wheel.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 52px;
+        height: 100px;
+        z-index: 2;
+        animation: wheel 1s linear infinite;
+    }
+    .road {
+        position: absolute;
+        bottom: 0;
+        background-image: url(../img/road.jpg);
+        background-repeat: repeat-x;
+        width: 500%;
+        height: 200px;
+        z-index: 1;
+        animation-name: rodeAndCityMobile;
+        animation-duration: 2s;
+        animation-direction: revert;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    .city {
+        position: absolute;
+        bottom: 200px;
+        background-image: url(../img/city.png);
+        background-position: top;
+        background-repeat: repeat-x;
+
+        width: 500%;
+        height: 34%;
+        z-index: 1;
+        animation-name: rodeAndCityMobile;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes rodeAndCityMobile {
+        100%{
+            transform: translateX(-1000px);
+        }
+    }
+}
+@keyframes wheel {
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

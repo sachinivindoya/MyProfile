@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case06</title>
+    <style>
+        section{
+            width: 90vw;
+            height: 70vh;
+            display: grid;
+            border: 1px solid black;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        section>.box-1{
+            grid-column: 1/3;
+            grid-row: 1/1;
+            border: 1px solid black;
+            background-color:red;
+        }
+        section>.box-2{
+            border: 1px solid black;
+            background-color:green;
+        }
+        section>.box-3{
+            grid-column: 4/5;
+            grid-row: 1/4;
+            border: 1px solid black;
+            background-color:orangered;
+        }
+        section>.box-4{
+            border: 1px solid black;
+            background-color:purple;
+        }
+        section>.box-5{
+            border: 1px solid black;
+            background-color:deeppink;
+        }
+        section>.box-6{
+            border: 1px solid black;
+            background-color:blue;
+        }
+        section>.box-7{
+            border: 1px solid black;
+            background-color:brown;
+        }
+        section>.box-8{
+            grid-column: 2/4;
+            grid-row: 3/4;
+            border: 1px solid black;
+            background-color:darkslateblue;
+        }
+    </style>
+</head>
+<body>
+  <section>
+      <div class="box-1"></div>
+      <div class="box-2"></div>
+      <div class="box-3"></div>
+      <div class="box-4"></div>
+      <div class="box-5"></div>
+      <div class="box-6"></div>
+      <div class="box-7"></div>
+      <div class="box-8"></div>
+  </section>
+
+</body>
+</html>

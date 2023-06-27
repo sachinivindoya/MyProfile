@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-01</title>
+    <style>
+        .block-1{
+            width: 50vw;
+            height:50vh;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .block-2{
+            width: 50vw;
+            height:50vh;
+            background-color: green;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .block-3{
+            width: 50vw;
+            height:50vh;
+            background-color: orange;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .block-4{
+            width: 50vw;
+            height:50vh;
+            background-color: #d900b7;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .circle-1{
+            width:250px;
+            height:250px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .circle-2{
+            width:250px;
+            height:250px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .circle-3{
+            width:250px;
+            height:250px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .circle-4{
+            width:250px;
+            height:250px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .square-1{
+            width: 100px;
+            height:100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .square-2{
+            width: 100px;
+            height:100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .square-3{
+            width: 100px;
+            height:100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .square-4{
+            width: 100px;
+            height:100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .square-mid{
+            width: 225px;
+            height:225px;
+            background-color: white;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .circle-mid{
+            width:125px;
+            height:125px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color:red;
+            border-radius: 120px;
+        }
+
+        .circle-left-top{
+            width:225px;
+            height:225px;
+            position: relative;
+            left: -100px;
+            top:-100px;
+            background-color:white;
+            border-radius: 120px;
+        }
+
+        .circle-right-top{
+            width:225px;
+            height:225px;
+            position: fixed;
+            right: -100px;
+            top:-100px;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .circle-left-bottom{
+            width:225px;
+            height:225px;
+            position: fixed;
+            left: -100px;
+            bottom:-100px;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .circle-right-bottom{
+            width:225px;
+            height:225px;
+            position: fixed;
+            right: -100px;
+            bottom:-100px;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .circle-mid-top{
+            width:225px;
+            height:225px;
+            position: fixed;
+            left: calc(50% - 112.5px);
+            top: -112.5px;
+            background-color:white;
+            border-radius: 120px;
+        }
+        .circle-mid-bottom{
+            width:225px;
+            height:225px;
+            position: fixed;
+            left: calc(50% - 112.5px);
+            bottom: -112.5px;
+            background-color:white;
+            border-radius: 120px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section class="container">
+        <div class="block-1">
+            <div class="circle-1">
+                <div class="square-1"></div>
+            </div>
+        </div>
+        <div class="block-2">
+            <div class="circle-2">
+                <div class="square-2"></div>
+            </div>
+            <div class="circle-right-top"></div>
+        </div>
+        <div class="block-3">
+            <div class="circle-3">
+                <div class="square-3"></div>
+            </div>
+            <div class="circle-left-bottom"></div>
+        </div>
+        <div class="block-4">
+            <div class="circle-4">
+                <div class="square-4"></div>
+            </div>
+            <div class="circle-right-bottom"></div>
+        </div>
+        <div class="square-mid"></div>
+        <div class="circle-mid"></div>
+        <div class="circle-left-top"></div>
+        <div class="circle-mid-top"></div>
+        <div class="circle-mid-bottom"></div>
+    </section>
+</main>
+</body>
+</html>

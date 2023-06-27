@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+}
+
+section {
+    background-color: mediumpurple;
+    position: relative;
+    width: 50px;
+    height: 55px;
+    transition-property: width;
+    transition-duration: 4s;
+}
+
+section:hover {
+    width: 50vw;
+    transition-property: all;
+    transition-duration: 4s;
+
+}
+
+section > div {
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 100%;
+}
