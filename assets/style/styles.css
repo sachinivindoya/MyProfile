@@ -441,6 +441,9 @@ main > section:first-child > section:first-child > div:first-child {
 }
 
 @media (max-width: 425px) {
+    main > section:nth-child(1){
+        background-image: url("../image/top-view-desk-concept-with-copy-space.jpg");
+    }
     /*home section*/
     main > section:first-child > section:first-child > div:first-child {
         flex-direction: column-reverse;
