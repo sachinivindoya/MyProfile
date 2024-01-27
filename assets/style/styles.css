@@ -460,9 +460,57 @@ main > section:first-child > section:first-child > div:first-child {
 }
 
 @media (max-width: 375px) {
-    main > section:nth-child(1){
-        background-image: url("../image/bgg.jpg");
-    }
+   header {
+     position: fixed;
+     background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
+     width: 100%;
+     top: 0;
+     height: 78px;
+     z-index: 999;
+     opacity: 80%;
+ }
+ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+     font-size: small;
+     margin-top: 10px;
+     margin-bottom: 5px;
+ }
+ main > section:nth-child(1){
+     background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
+ }
+   header {
+     position: fixed;
+     background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
+     width: 100%;
+     top: 0;
+     height: 78px;
+     z-index: 999;
+     opacity: 80%;
+ }
+ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+     font-size: small;
+     margin-top: 10px;
+     margin-bottom: 5px;
+ }
+ main > section:nth-child(1){
+     background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
+ }
+   header {
+     position: fixed;
+     background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
+     width: 100%;
+     top: 0;
+     height: 78px;
+     z-index: 999;
+     opacity: 80%;
+ }
+ main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
+     font-size: small;
+     margin-top: 10px;
+     margin-bottom: 5px;
+ }
+ main > section:nth-child(1){
+     background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
+ }
     /*home section*/
     main > section:first-child > section:first-child > div:first-child {
         flex-direction: column-reverse;
