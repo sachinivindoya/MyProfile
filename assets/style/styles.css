@@ -442,7 +442,7 @@ main > section:first-child > section:first-child > div:first-child {
 
 @media (max-width: 425px) {
     main > section:nth-child(1){
-        background-image: url("../image/peakpx.jpg");
+        background-image: url("../image/bgg.jpg");
     }
     /*home section*/
     main > section:first-child > section:first-child > div:first-child {
@@ -529,7 +529,7 @@ main > section:first-child > section:first-child > div:first-child {
 @media (max-width: 375px) {
 
     main > section:nth-child(1){
-        background-image: url("../image/laptop-half-closed-dark-with-colourful-glow-cup-coffee-glasses.jpg");
+        background-image: url("../image/peakpx\ \(1\).jpg");
     }
     aside > #blog {
         font-size: 10px;
