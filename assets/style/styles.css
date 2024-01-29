@@ -526,6 +526,7 @@ main > section:first-child > section:first-child > div:first-child {
 
     main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h3:first-child {
         font-size: 15px;
+        display: none;
     }
 
     main > section:nth-child(1) > section > div:first-child > aside:nth-child(1) > h1:nth-child(2) {
@@ -608,6 +609,7 @@ main > section:first-child > section:first-child > div:first-child {
         font-size: small;
         margin-top: 10px;
         margin-bottom: 5px;
+        display: none;
     }
     main > section:nth-child(1){
         background: linear-gradient(to right, #F9FAFB, #7ecb79, #701C7D);
