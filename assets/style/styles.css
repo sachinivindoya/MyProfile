@@ -28,7 +28,7 @@
 /* Navbar styles */
 .menu {
     /* Your existing navbar styles */
-    display: none; /* Initially hide the navbar */
+    display: inline; /* Initially hide the navbar */
 }
 
 .menu.active {
